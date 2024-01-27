@@ -1,0 +1,8 @@
+.center {
+    display: flex;
+    margin-bottom: 50px;
+}
+.center .box {
+    width: 50px;
+}
+
