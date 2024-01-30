@@ -1,9 +1,19 @@
-center {
+.flex {
+    display: flex;
+    background-color: #ccc;
+}
+
+.flex-colum{
+    display: flex;
+    flex-direction: column;
+}
+
+.wrap {
     display: flex;
     margin-bottom: 20px;
 }
 
-center .box{
-    width: 50px;
-
+.box{
+    height: 40px;
+    width: 33%;
 }
