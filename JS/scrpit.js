@@ -17,5 +17,3 @@ console.log(10 / 5);
 console.log(typeof Infinity)
 console.log(typeof -Infinity)
 console.log( typeof NaN)
-console.log(2 + 5 )
-console.log(2 + 5 )
