@@ -36,3 +36,8 @@ console.log ("oi," + "tudo bem?,")
 // templates strings 
 
 console.log(`a soma de 2 + 2 é: ${2 + 2}`)
+
+
+// cocatenação dnv
+
+console.log(" oi, "  + "tudo bem?" )
