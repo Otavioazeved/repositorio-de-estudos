@@ -63,3 +63,13 @@ console.log(5 > 4 && 5 < 2 )
 console.log( !false)
 
 console.log  (50 < 100 && 50 >= 3)
+
+
+// empty values
+
+
+console.log( typeof null, typeof undefined )
+
+// mudança de tipos 
+
+console.log("10" + "12")
