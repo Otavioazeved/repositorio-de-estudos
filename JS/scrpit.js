@@ -73,3 +73,7 @@ console.log( typeof null, typeof undefined )
 // mudança de tipos 
 
 console.log("10" + "12")
+
+console.log( 2  * 5 )
+console.log ( 2 ** 2)
+
