@@ -55,9 +55,3 @@ do {
 
 
 
-var o = 0
-
-while( o < 10) {
-    console.log(`passo ${o}`)
-    c++
-}
