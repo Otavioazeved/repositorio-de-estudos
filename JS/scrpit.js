@@ -37,9 +37,18 @@
 
 
 
-var c = 1 
-while(c < 6) {
-    console.log("ola tudo bem ")
-    c++
+// var c = 1 
+// while (c <= 6) {
+//     console.log(`passo ${c}`)
+//     c++
 
-}
+// }
+
+
+
+var c = 0
+
+do {
+    console.log(`passo ${c}`)
+    c++
+} while ( c <= 6)
