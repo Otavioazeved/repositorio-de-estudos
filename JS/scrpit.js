@@ -52,3 +52,12 @@ do {
     console.log(`passo ${c}`)
     c++
 } while ( c <= 6)
+
+
+
+var o = 0
+
+while( o < 10) {
+    console.log(`passo ${o}`)
+    c++
+}
