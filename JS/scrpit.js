@@ -63,7 +63,16 @@
 // }
 // console.log("FIM")
 
-console.log("inciando a contagem") 
-for(var o = 1; o <= 10; o++) {
-    console.log(o)
-} console.log("fim da contagem")
+// console.log("inciando a contagem") 
+// for(var o = 1; o <= 10; o++) {
+//     console.log(o)
+// } console.log("fim da contagem")
+
+
+// for(let g = 20; g > 10; g--) {
+//     console.log(`o valor de g e: ${g}`)
+//     if(g=== 12) {
+//      console.log("o g é 12!")
+//      break;
+//     }
+// }
