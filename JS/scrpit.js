@@ -73,6 +73,24 @@
 //     console.log(`o valor de g e: ${g}`)
 //     if(g=== 12) {
 //      console.log("o g é 12!")
-//      break;
+//      break;bra
 //     }
 // }
+
+
+const job = "brun"
+
+switch(job) {
+    case "programador":
+        console.log("voce é programador");
+        break;
+        case "advogado":
+        console.log("voce é um advogado");
+        break;
+        case "jogador":
+        console.log("voce é um jogador");
+        break;
+        default:
+        console.log("profissão não encontrada");
+
+}
