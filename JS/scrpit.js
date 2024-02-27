@@ -62,3 +62,9 @@ for (var c = 1; c <= 7; c++) {
     console.log(c)
 }
 console.log("FIM")
+
+console.log("iniciei")
+
+for(var o = 1; o <= 6; c++) {
+    console.log (o)
+}
