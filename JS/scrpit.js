@@ -57,14 +57,13 @@
 
 // for de novo 
  
-console.log("vai começar")
-for (var c = 1; c <= 7; c++) {
-    console.log(c)
-}
-console.log("FIM")
+// console.log("vai começar")
+// for (var c = 1; c <= 7; c++) {
+//     console.log(c)
+// }
+// console.log("FIM")
 
-console.log("iniciei")
-
-for(var o = 1; o <= 6; c++) {
-    console.log (o)
-}
+console.log("inciando a contagem") 
+for(var o = 1; o <= 10; o++) {
+    console.log(o)
+} console.log("fim da contagem")
