@@ -78,7 +78,7 @@
 // }
 
 
-const job = "brun"
+const job = "programador"
 
 switch(job) {
     case "programador":
