@@ -58,5 +58,4 @@ funcaoComEscopo();
 
 console.log(`fora da função y é: ${y}`)
 
-// escopoo aninhado 
-
+  
