@@ -28,3 +28,31 @@
 
 // return 
 
+
+// const a = 10;
+// const b = 20;
+// const c = 30;
+// const d = 40;
+
+// function soma(n1, n2) {
+//     return n1 + n2;
+// }
+
+// const resultado = soma(a, b)
+
+// console.log(soma(c, d))
+
+// console.log(soma(a, b))
+
+
+let y = 10;
+
+function funcaoComEscopo () {
+    let y = 20;
+    console.log(`dentro da função é; ${y}`)
+
+}
+
+funcaoComEscopo();
+
+console.log(`fora da função y é: ${y}`)
