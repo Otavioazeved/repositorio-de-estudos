@@ -20,7 +20,7 @@
 //     console.log(`imprimindo: ${txt}`)
 // }
 
-// funcaoComParametro("imprimindo alguma coisa")
+//  funcaoComParametro("imprimindo alguma coisa")
 
 // funcaoComParametro("outra função")
 // funcaoComParametro("outra função otavio")
