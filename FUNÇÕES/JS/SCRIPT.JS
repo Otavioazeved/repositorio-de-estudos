@@ -82,10 +82,31 @@ let y = 10;
 
 // const meusnumeros =  soma(4)
 
-function div( n1, n2) {
-    let div = n1 / n2
-    return div
-}
+// function div( n1, n2) {
+//     let div = n1 / n2
+//     return div
+// }
 
-const minhaDivisao = div(4, 2)
-console.log(minhaDivisao)
+// const minhaDivisao = div(4, 2)
+// console.log(minhaDivisao)
+
+
+// arrow function 
+
+// const ArrowTeste = () => {
+//     console.log("esta é uma arrow function")
+// }
+
+// ArrowTeste()
+
+
+
+// function parouimpar (n) {
+//     if (n % 2 === 0) {
+//     return `impar`
+//     }else {
+//        return `par`
+//     }
+// }
+
+// console.log(parouimpar(3))
