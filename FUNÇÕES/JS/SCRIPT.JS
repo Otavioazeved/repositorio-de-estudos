@@ -75,11 +75,12 @@ let y = 10;
 
 //  mais funções...kkkk
 
-function soma(n1 = 0, n2 = 0) {
+function soma( n1 = 0, n2 = 0) {
     let soma = n1 + n2
-    return soma 
-
+    return soma
 }
 
-const meusnumeros = soma(4)
+const meusnumeros =  soma(4)
+
 console.log(meusnumeros)
+
