@@ -47,15 +47,39 @@
 
 let y = 10;
 
-function funcaoComEscopo () {
-    let y = 20;
-    console.log(`dentro da função é; ${y}`)
+// function funcaoComEscopo () {
+//     let y = 20;
+//     console.log(`dentro da função é; ${y}`)
+
+// }
+
+// funcaoComEscopo();
+
+
+// console.log(`fora da função y é: ${y}`)
+
+// //   função o1 js 
+
+
+// function parimpar(n) {
+//     if(n%2 == 0) {
+//         return `par`
+//     }else {
+//         return `impar`
+//     }
+// }
+
+//  console.log(parimpar(8))
+
+
+
+//  mais funções...kkkk
+
+function soma(n1 = 0, n2 = 0) {
+    let soma = n1 + n2
+    return soma 
 
 }
 
-funcaoComEscopo();
-
-
-console.log(`fora da função y é: ${y}`)
-
-  
+const meusnumeros = soma(4)
+console.log(meusnumeros)
