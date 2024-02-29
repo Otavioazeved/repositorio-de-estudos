@@ -85,4 +85,3 @@ let y = 10;
 // console.log(meusnumeros)
 
 
-// função arrow 
