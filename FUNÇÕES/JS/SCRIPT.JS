@@ -82,6 +82,10 @@ let y = 10;
 
 // const meusnumeros =  soma(4)
 
-// console.log(meusnumeros)
+function div( n1, n2) {
+    let div = n1 / n2
+    return div
+}
 
-
+const minhaDivisao = div(4, 2)
+console.log(minhaDivisao)
