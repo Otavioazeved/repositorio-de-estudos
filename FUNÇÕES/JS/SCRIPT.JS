@@ -125,5 +125,16 @@ let y = 10;
 
 
 
+function hello (name = "otavio", surname = "azevedo") {
+    console.log(`olá ${name} ${surname}! Como voce está?`)
+}
+
+
+hello();
+
+hello("sandro", "silva" );
+
+
+
 
  
