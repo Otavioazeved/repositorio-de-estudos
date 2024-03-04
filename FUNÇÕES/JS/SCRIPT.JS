@@ -111,17 +111,17 @@ let y = 10;
 
 // console.log(parouimpar(3))
 
- const greeting = (name) => {
-    if(!name) {
-        console.log("olá")
-        return
-    }
-    console.log(`olá ${name}`)
- }
+//  const greeting = (name) => {
+//     if(!name) {
+//         console.log("olá")
+//         return
+//     }
+//     console.log(`olá ${name}`)
+//  }
 
-greeting();
+// greeting();
 
-greeting("otavio");
+// greeting("otavio");
 
 
 
