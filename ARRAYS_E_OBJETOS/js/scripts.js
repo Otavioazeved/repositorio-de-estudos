@@ -38,25 +38,37 @@ console.log(array);
 // console.log(allnumbers);
 
 
- const times = ["flamengo", "vasco", "santos"];
+//  const times = ["flamengo", "vasco", "santos"];
 
-const numbers = [1, 2, 3];
+// const numbers = [1, 2, 3];
 
-const timbers = times.concat(numbers)
+// const timbers = times.concat(numbers)
 
-console.log(timbers)
-
-
+// console.log(timbers)
 
 
 
-const text = "algum texto"
-
-console.log(text.toLocaleUpperCase())
 
 
-const arr = ["a", "b", "c"];
+// const text = "algum texto"
 
-console.log(arr[2])
+// console.log(text.toLocaleUpperCase())
 
-console.log(arr);
+
+// const arr = ["a", "b", "c"];
+
+// console.log(arr[2])
+
+// console.log(arr);
+// objetos 
+
+
+const person = {
+    name: "otávio",
+    age: 22,
+    work: "programador"
+}
+
+console.log(person)
+console.log(person.age)
+console.log(person.work)
