@@ -125,14 +125,14 @@ let y = 10;
 
 
 
-function hello (name = "otavio", surname = "azevedo") {
-    console.log(`olá ${name} ${surname}! Como voce está?`)
-}
+// function hello (name = "otavio", surname = "azevedo") {
+//     console.log(`olá ${name} ${surname}! Como voce está?`)
+// }
 
 
-hello();
+// hello();
 
-hello("sandro", "silva" );
+// hello("sandro", "silva" );
 
 
 
