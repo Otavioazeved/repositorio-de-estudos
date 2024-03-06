@@ -63,12 +63,28 @@ console.log(array);
 // objetos 
 
 
-const person = {
-    name: "otávio",
-    age: 22,
-    work: "programador"
+// const person = {
+//     name: "otávio",
+//     age: 22,
+//     work: "programador"
+// }
+
+// console.log(person)
+// console.log(person.age)
+// console.log(person.work)
+
+
+const car = {
+    engine: 2.0,
+    brand: "vw",
+    model: "tiguan", 
+    km:2000 
+
 }
 
-console.log(person)
-console.log(person.age)
-console.log(person.work)
+
+console.log(car)
+
+car.portas = 3
+
+console.log(car)
