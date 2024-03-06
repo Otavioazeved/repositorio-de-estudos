@@ -53,3 +53,10 @@ console.log(timbers)
 const text = "algum texto"
 
 console.log(text.toLocaleUpperCase())
+
+
+const arr = ["a", "b", "c"];
+
+console.log(arr[2])
+
+console.log(arr);
