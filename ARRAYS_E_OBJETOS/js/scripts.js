@@ -7,3 +7,16 @@
 // console.log(itens);
 
 //  propriedades 
+
+const numbers = [1, 2, 3]
+
+console.log(numbers);
+
+console.log(numbers.length);
+
+console.log(numbers["length"]);
+
+
+
+
+
