@@ -1,12 +1,9 @@
-const lista = [1, 2, 3, 4, 5, 6]
+// // const lista = [1, 2, 3, 4, 5]
+// console.log(lista);
 
 
-console.log(lista);
+// var itens = ["otavio", "maria meu amor", 2, 2.45]
 
-console.log(typeof lista)
+// console.log(itens);
 
-
-const itens = [ "otavio", "jorge", "sandro", "maria meu amor",[] ]
-
-console.log(itens);
-
+//  propriedades 
