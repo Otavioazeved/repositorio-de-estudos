@@ -38,15 +38,18 @@ console.log(array);
 // console.log(allnumbers);
 
 
-// const times = ["flamengo", "vasco", "santos"];
+ const times = ["flamengo", "vasco", "santos"];
 
-// const numbers = [1, 2, 3];
+const numbers = [1, 2, 3];
+
+const timbers = times.concat(numbers)
+
+console.log(timbers)
 
 
 
-// const timbers = times.concat(numbers);
 
-// console.log(timbers);
 
-// console.log(timbers.length);
+const text = "algum texto"
 
+console.log(text.toLocaleUpperCase())
