@@ -135,6 +135,18 @@ let y = 10;
 // hello("sandro", "silva" );
 
 
+const untiLten = (n, m) => {
+    if(n < 10) {
+        console.log("a função parou de executar")
+    } else {
+        const x = n - m;
+        console.log(x)
+
+        untiLten(x, m);
+    }
+}
+
+untiLten(100, 7);
 
 
  
