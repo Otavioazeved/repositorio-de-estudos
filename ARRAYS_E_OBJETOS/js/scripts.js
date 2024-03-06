@@ -29,3 +29,24 @@ console.log(array);
 // console.log(myName.length)
 
 
+// metodos
+
+// const numbers = [1, 2, 3];
+
+// const allnumbers = numbers.concat(numbers);
+
+// console.log(allnumbers);
+
+
+// const times = ["flamengo", "vasco", "santos"];
+
+// const numbers = [1, 2, 3];
+
+
+
+// const timbers = times.concat(numbers);
+
+// console.log(timbers);
+
+// console.log(timbers.length);
+
