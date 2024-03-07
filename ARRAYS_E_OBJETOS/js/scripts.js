@@ -8,11 +8,11 @@
 
 //  mais sobre arrays
 
-const array = ["a", "b", "c", "d"];
+// const array = ["a", "b", "c", "d"];
 
-console.log(array[2]);
+// console.log(array[2]);
 
-console.log(array);
+// console.log(array);
 
 //  propriedades 
 
