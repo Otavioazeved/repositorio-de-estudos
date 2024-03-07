@@ -91,25 +91,32 @@
 
 //  mais sobre obj
 
- const obj = {
-     a: "teste",
-     b: true
- }
- console.log(obj instanceof Object);
+//  const obj = {
+//      a: "teste",
+//      b: true
+//  }
+//  console.log(obj instanceof Object);
 
- const obj2 = {
-     c: []
- }
+//  const obj2 = {
+//      c: []
+//  }
 
- Object.assign(obj2, obj);
+//  Object.assign(obj2, obj);
 
- console.log(obj2)
+//  console.log(obj2)
 
-console.log(obj)
+// console.log(obj)
 
-// conhecendo melhor os objetos ...
+// // conhecendo melhor os objetos ...
 
 
-console.log(object.keys(obj));
-console.log(object.keys(obj2));
+// console.log(object.keys(obj));
+// console.log(object.keys(obj2));
+
+
+let num = []
+
+console.log(`nosso vetor é o ${num}`)
+
+
 
