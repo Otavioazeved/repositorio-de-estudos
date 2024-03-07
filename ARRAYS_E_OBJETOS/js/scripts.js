@@ -122,8 +122,7 @@ num[5]= 6
 console.log(num)
 num.push(9)
 console.log(num)
-
-
-
-
-
+console.log(num.length)
+console.log(num.sort)
+console.log(num[3])
+console.log(`o primeiro elemento é ${num [0]}`)
