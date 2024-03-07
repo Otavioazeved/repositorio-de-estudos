@@ -74,17 +74,17 @@ console.log(array);
 // console.log(person.work)
 
 
-const car = {
-    engine: 2.0,
-    brand: "vw",
-    model: "tiguan", 
-    km:2000 
+// const car = {
+//     engine: 2.0,
+//     brand: "vw",
+//     model: "tiguan", 
+//     km:2000 
 
-}
+// }
 
 
-console.log(car)
+// console.log(car)
 
-car.portas = 3
+// car.portas = 3
 
-console.log(car)
+// console.log(car)
