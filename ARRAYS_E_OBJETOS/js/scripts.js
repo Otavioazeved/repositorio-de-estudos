@@ -144,3 +144,8 @@ a.age = 22
 
 console.log(a)
 
+const users = ["otavio", "maria", "daniela", "isaque"];
+
+for(let i = 0; i < users.length; i++) {
+    console.log(`listando o usuario; ${users[i]} `)
+}
