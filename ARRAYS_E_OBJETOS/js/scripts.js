@@ -151,16 +151,7 @@
 // }
 
 
-let a = ["a", "b", "c"];
-
-console.log(a)
-
-a.push("d")
-console.log(a)
-
-
-console.log(a.length)
-
-
-a.pop()
-console.log(a)
+let bora = [3, 6, 4, 7, 10]
+ for(let pos=0; pos < bora.length; pos++) {
+    console.log(`a posição ${pos} tem o valor ${bora[pos]}`)
+ }
