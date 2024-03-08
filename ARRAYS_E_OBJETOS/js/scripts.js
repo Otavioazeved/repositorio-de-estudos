@@ -159,4 +159,8 @@ a.push("d")
 console.log(a)
 
 
+console.log(a.length)
 
+
+a.pop()
+console.log(a)
