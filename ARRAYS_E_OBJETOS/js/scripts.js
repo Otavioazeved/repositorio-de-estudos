@@ -155,3 +155,6 @@ let bora = [3, 6, 4, 7, 10]
  for(let pos=0; pos < bora.length; pos++) {
     console.log(`a posição ${pos} tem o valor ${bora[pos]}`)
  }
+
+ bora.sort()
+ console.log(bora)
