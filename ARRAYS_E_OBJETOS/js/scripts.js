@@ -156,5 +156,8 @@ let bora = [3, 6, 4, 7, 10]
     console.log(`a posição ${pos} tem o valor ${bora[pos]}`)
  }
 
- bora.sort()
- console.log(bora)
+let pos = bora.indexOf(4)
+console.log(`o valor 4 esta na posição ${pos}`)
+
+bora.sort()
+console.log(bora)
