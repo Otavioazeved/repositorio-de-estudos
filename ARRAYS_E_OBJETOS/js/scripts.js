@@ -168,17 +168,30 @@
 
 
 
-const letters = ["a", "b", "c", "d"]
+// const letters = ["a", "b", "c", "d"]
 
-console.log(letters)
+// console.log(letters)
 
-const letter = letters.shift();
+// const letter = letters.shift();
 
-console.log(letter);
+// console.log(letter);
 
-console.log(letters);
+// console.log(letters);
 
 
-letters.unshift("e", "f")
+// letters.unshift("e", "f")
 
-console.log(letters)
+// console.log(letters)
+
+const lore = ["jorge", "sandro", "bruno", "marcio"]
+
+console.log(lore);
+
+console.log(lore.indexOf("jorge")) 
+
+console.log(lore.indexOf("marcio"))
+
+
+console.log(lore.lastIndexOf("jorge"))
+
+
