@@ -177,3 +177,8 @@ const letter = letters.shift();
 console.log(letter);
 
 console.log(letters);
+
+
+letters.unshift("e", "f")
+
+console.log(letters)
