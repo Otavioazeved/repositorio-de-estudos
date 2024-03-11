@@ -167,8 +167,13 @@
 //  shift e unshift
 
 
-const letters = ["a", "b", "c"]
 
-const letters = letters.shift()
+const letters = ["a", "b", "c", "d"]
 
 console.log(letters)
+
+const letter = letters.shift();
+
+console.log(letter);
+
+console.log(letters);
