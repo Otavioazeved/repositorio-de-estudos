@@ -151,13 +151,24 @@
 // }
 
 
-let bora = [3, 6, 4, 7, 10]
- for(let pos=0; pos < bora.length; pos++) {
-    console.log(`a posição ${pos} tem o valor ${bora[pos]}`)
- }
+// let bora = [3, 6, 4, 7, 10]
+//  for(let pos=0; pos < bora.length; pos++) {
+//     console.log(`a posição ${pos} tem o valor ${bora[pos]}`)
+//  }
 
-let pos = bora.indexOf(4)
-console.log(`o valor 4 esta na posição ${pos}`)
+// let pos = bora.indexOf(4)
+// console.log(`o valor 4 esta na posição ${pos}`)
 
-bora.sort()
-console.log(bora)
+// bora.sort()
+// console.log(bora)
+
+
+
+//  shift e unshift
+
+
+const letters = ["a", "b", "c"]
+
+const letters = letters.shift()
+
+console.log(letters)
