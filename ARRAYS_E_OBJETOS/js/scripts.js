@@ -197,3 +197,5 @@ console.log(elements.indexOf("morango"));
 console.log(elements.indexOf("pera"))
 
 console.log(elements[2])
+
+
