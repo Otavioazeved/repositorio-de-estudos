@@ -188,14 +188,27 @@
 // last e indexOf
 
 
-const elements = ["morango", "maça", "pera"]
+// const elements = ["morango", "maça", "pera"]
 
-console.log(elements)
+// console.log(elements)
 
-console.log(elements.indexOf("morango"));
+// console.log(elements.indexOf("morango"));
 
-console.log(elements.indexOf("pera"))
+// console.log(elements.indexOf("pera"))
 
-console.log(elements[2])
+// console.log(elements[2])
+
+// SLICE
+
+const rey = ["a", "b", "c", "d", "e"]
+
+console.log(rey);
+
+const rey2 = rey.slice(2,4 + 1)
+
+console.log(rey2)
+
+
+
 
 
