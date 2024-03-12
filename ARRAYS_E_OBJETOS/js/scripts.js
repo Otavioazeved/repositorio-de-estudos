@@ -204,13 +204,14 @@
 
 // SLICE
 
-// const rey = ["a", "b", "c", "d", "e"]
+const betters = ["joão,", "pedro", "jorge", "bruninho", "lucas"]
 
-// console.log(rey);
+console.log(betters);
 
-// const rey2 = rey.slice(2,4 + 1)
+const beter = betters.slice(1,3 + 1)
 
-// console.log(rey2)
+console.log(beter)
+
 
 
 
