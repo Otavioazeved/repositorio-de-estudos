@@ -168,20 +168,24 @@
 
 
 
-// const letters = ["a", "b", "c", "d"]
+//  const letters = ["a", "b", "c", "d"]
 
-// console.log(letters)
+//  console.log(letters)
 
 // const letter = letters.shift();
 
 // console.log(letter);
 
-// console.log(letters);
+//  console.log(letters);
+
+//  letters.unshift("e", "f")
+
+//  console.log(letters)
 
 
 // letters.unshift("e", "f")
 
-// console.log(letters)
+//  console.log(letters)
 
 
 
@@ -200,13 +204,13 @@
 
 // SLICE
 
-const rey = ["a", "b", "c", "d", "e"]
+// const rey = ["a", "b", "c", "d", "e"]
 
-console.log(rey);
+// console.log(rey);
 
-const rey2 = rey.slice(2,4 + 1)
+// const rey2 = rey.slice(2,4 + 1)
 
-console.log(rey2)
+// console.log(rey2)
 
 
 
