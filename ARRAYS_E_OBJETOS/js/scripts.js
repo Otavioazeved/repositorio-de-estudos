@@ -183,15 +183,6 @@
 
 // console.log(letters)
 
-const lore = ["jorge", "sandro", "bruno", "marcio"]
 
-console.log(lore);
-
-console.log(lore.indexOf("jorge")) 
-
-console.log(lore.indexOf("marcio"))
-
-
-console.log(lore.lastIndexOf("jorge"))
 
 
