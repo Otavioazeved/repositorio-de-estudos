@@ -185,4 +185,15 @@
 
 
 
+// last e indexOf
 
+
+const elements = ["morango", "maça", "pera"]
+
+console.log(elements)
+
+console.log(elements.indexOf("morango"));
+
+console.log(elements.indexOf("pera"))
+
+console.log(elements[2])
