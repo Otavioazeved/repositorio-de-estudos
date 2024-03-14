@@ -247,3 +247,6 @@ if(cursos.includes("ciencia da compu")) {
  }else {
     console.log("não escolha esse")
  }
+
+
+ 
