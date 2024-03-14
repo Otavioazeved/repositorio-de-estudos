@@ -204,13 +204,22 @@
 
 // SLICE
 
-const betters = ["joão,", "pedro", "jorge", "bruninho", "lucas"]
+// const betters = ["joão,", "pedro", "jorge", "bruninho", "lucas"]
 
-console.log(betters);
+// console.log(betters);
 
-const beter = betters.slice(1,3 + 1)
+// const beter = betters.slice(1,3 + 1)
 
-console.log(beter);
+// console.log(beter);
+
+
+
+const nums = [1, 2, 3, 4, 5]
+
+nums.forEach((numero) => {
+    console.log(`o numero é $(numero)`)
+
+})
 
 
 
