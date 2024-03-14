@@ -215,23 +215,35 @@
 
 //  forEach 
 
-const nums = [1, 2, 3, 4, 5]
+// const nums = [1, 2, 3, 4, 5]
 
-nums.forEach((numero) => {
-    console.log(`o numero é ${numero}`)
+// nums.forEach((numero) => {
+//     console.log(`o numero é ${numero}`)
 
-})
-
-
-
-const posts = [
-    {tittle: "primeiro post", category: "php"},
-    {tittle: "primeiro post", category: "javascript"},
-    {tittle: "primeiro post", category: "phyton"},
-];
-
-posts.forEach((post) =>{
-    console.log(`exibindo post: ${post.tittle}, da categoria: ${post.category}`)
-} )
+// })
 
 
+
+//  const posts = [
+//      {tittle: "primeiro post", category: "php"},
+// //     {tittle: "primeiro post", category: "javascript"},
+
+    
+
+
+// // const titulos = ["flamengo", "vasco", "santos", "santo andré"];
+
+// // console.log(titulos.includes("flamengo"));
+
+// // if(titulos.includes("vasco")) {
+// //     console.log("esse time existe, porém é bem fraquinho escolha outro ")
+// }
+
+
+const cursos = ["ciencia da compu", "ads", "eng. de soft", "eng. da computa"]
+
+if(cursos.includes("ciencia da compu")) {
+    console.log("esse é um excelente curso com boas recomendações, ele pega bastante na area de mat")
+ }else {
+    console.log("não escolha esse")
+ }
