@@ -213,16 +213,25 @@
 // console.log(beter);
 
 
+//  forEach 
 
 const nums = [1, 2, 3, 4, 5]
 
 nums.forEach((numero) => {
-    console.log(`o numero é $(numero)`)
+    console.log(`o numero é ${numero}`)
 
 })
 
 
 
+const posts = [
+    {tittle: "primeiro post", category: "php"},
+    {tittle: "primeiro post", category: "javascript"},
+    {tittle: "primeiro post", category: "phyton"},
+];
 
+posts.forEach((post) =>{
+    console.log(`exibindo post: ${post.tittle}, da categoria: ${post.category}`)
+} )
 
 
