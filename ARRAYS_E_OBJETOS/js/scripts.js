@@ -210,7 +210,7 @@ console.log(betters);
 
 const beter = betters.slice(1,3 + 1)
 
-console.log(beter)
+console.log(beter);
 
 
 
