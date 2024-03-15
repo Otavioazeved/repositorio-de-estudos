@@ -240,13 +240,22 @@
 // }
 
 
-const cursos = ["ciencia da compu", "ads", "eng. de soft", "eng. da computa"]
+// const cursos = ["ciencia da compu", "ads", "eng. de soft", "eng. da computa"]
 
-if(cursos.includes("ciencia da compu")) {
-    console.log("esse é um excelente curso com boas recomendações, ele pega bastante na area de mat")
- }else {
-    console.log("não escolha esse")
- }
-
-
+// if(cursos.includes("ciencia da compu")) {
+//     console.log("esse é um excelente curso com boas recomendações, ele pega bastante na area de mat")
+//  }else {
+//     console.log("não escolha esse")
  
+
+// reverse
+
+
+const ReverseTeste = [1, 2, 3, 4, 5]
+
+console.log(ReverseTeste);
+
+ReverseTeste.reverse();
+
+console.log(ReverseTeste)
+
