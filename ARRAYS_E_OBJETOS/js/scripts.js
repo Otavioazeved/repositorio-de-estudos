@@ -259,3 +259,14 @@
 
 // console.log(ReverseTeste);
 
+const amigo = {nome: 'jose'
+, idade: '22',
+peso:'59.6',
+engordar(p=0){
+   console.log("engordei 12kg")
+   this.peso += p
+}}
+amigo.engordar(2)
+
+console.log(`${amigo.nome} pesa ${amigo.peso}kg`)
+
