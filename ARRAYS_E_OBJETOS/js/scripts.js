@@ -257,5 +257,6 @@ console.log(ReverseTeste);
 
 ReverseTeste.reverse();
 
-console.log(ReverseTeste)
+console.log(ReverseTeste);
 
+// 
