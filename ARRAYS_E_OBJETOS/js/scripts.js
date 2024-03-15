@@ -251,12 +251,11 @@
 // reverse
 
 
-const ReverseTeste = [1, 2, 3, 4, 5]
+// const ReverseTeste = [1, 2, 3, 4, 5]
 
-console.log(ReverseTeste);
+// console.log(ReverseTeste);
 
-ReverseTeste.reverse();
+// ReverseTeste.reverse();
 
-console.log(ReverseTeste);
+// console.log(ReverseTeste);
 
-// 
