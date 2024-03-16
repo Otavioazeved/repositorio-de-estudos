@@ -6,5 +6,7 @@ var hora = data.getHours()
 msg.innerHTML = `agora são ${hora} horas`
 if (hora >= 0 && hora < 12) {
     console.log("Bom dia!")
-} else if
+} else if( hora >= 12 && < 18) {
+    console.log("boa tarde!")
+} else 
 }
