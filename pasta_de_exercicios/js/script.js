@@ -4,6 +4,7 @@ var imgg = window.document.getElementById('imgg')
 var data = new Date()
 var hora = data.getHours()
 var minute = data.getMinutes()
+var hora  = 11
 msg.innerHTML = `agora são ${hora} horas e ${minute} minutos`
 if(hora >= 0 && hora < 12) {
     imgg.src = "manha.jpg"
