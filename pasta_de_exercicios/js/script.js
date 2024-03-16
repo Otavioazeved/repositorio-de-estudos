@@ -1,6 +1,6 @@
 function carregar () {
 var msg = window.document.getElementById('msg')
-var img = window.document.getElementById('imgg')
+var img = window.document.getElementById('img')
 var data = new Date()
 var hora = data.getHours()
 var minute = data.getMinutes()
@@ -10,7 +10,8 @@ if(hora >= 0 && hora < 12) {
 } else if(hora >= 12 && hora <= 18) {
     img.src ='tarde.jpg'
 } else {
-    img.src = 'noite.jpg'
+    img.src = "noite.jpg"
+    
 }
 
 }
