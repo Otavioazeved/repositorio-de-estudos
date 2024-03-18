@@ -270,3 +270,17 @@
 
 // console.log(`${amigo.nome} pesa ${amigo.peso}kg`)
 
+  
+
+// trim 
+const trimTeste  = "   testando \n   "
+const trimTeste2 = "   testando \n   "
+
+console.log(trimTeste);
+
+console.log(trimTeste.trim());
+
+console.log(trimTeste2);
+
+console.log(trimTeste2.trim())
+
