@@ -1,42 +1,8 @@
 body {
-    background: rgb(64, 64, 247);
-    font: normal 15pt arial;
- 
+    background: rgb(106, 106, 242);
 }
-
 
 header {
-color: white;
-text-align: center;
-}
-
-
-
-section{
-    background: white;
-    padding: 15px;
-    width: 250px;
-    height: 250px;
-    margin: auto;
-    box-shadow: 8px 8px 10px black;
-
-}
-
-footer {
-    color: white;
     text-align: center;
 }
 
-img {
-    height: 160px;
-    width: 250px;
-    border-radius: 120px;
-
-}
-
-
-div{
-    text-align: center;
-    padding: 5px;
-}
- 

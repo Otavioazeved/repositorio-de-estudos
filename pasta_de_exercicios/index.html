@@ -1,31 +1,37 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercicios</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="data:",  >
-    <script src="js/script.js"></script>
-    
+    <title>Document</title>
+   <link rel="stylesheet" href="styles.css">
+   <script src="js/script.js"></script>
+   <link rel="icon" href="data:",  >
 </head>
-<body onload = "carregar()">
-    
+<body>
     <header>
-        <h1>Hora do dia</h1>
+        <h1>Verificador de idade</h1>
     </header>
+
     <section>
         <div>
-            <p id="msg"></p> 
+            <p>ano de nascimento:</p>
+            <input type="number" name="txtano" id="txtano" placeholder="ano de nascimento">
+            <p>sexo:
+                
+                <input type="radio" name="radsex" id="masc" checked>
+                <label for="masculino">Masculino</label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="feminino">Feminino</label>
+            </p>
+            <input type="submit" value="Enviar">
         </div>
-        </div>
-        <div id="img">
-            <img src="img/tarde.jpg" alt="foto do dia ">
-
+        <div id="res">
+            preenchar os dados acima para ver o resultado
         </div>
     </section>
-    <footer>
-        <p> &copy;dev otavio 2024</p>
-    </footer>
+
+    <footer>&copy; dev otavio 2024</footer>
+        
 </body>
 </html>
