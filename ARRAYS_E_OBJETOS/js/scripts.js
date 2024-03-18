@@ -290,19 +290,39 @@
 
 
 
-const iniciopad = "2";
+// const iniciopad = "2";
 
-const inicio2 = iniciopad.padStart(6, "0");
+// const inicio2 = iniciopad.padStart(6, "0");
 
-console.log(iniciopad);
+// console.log(iniciopad);
 
-console.log(inicio2);
+// console.log(inicio2);
 
 
-const testepadEnd = "3"
+// const testepadEnd = "3"
 
-const fimpastEnd = testepadEnd.padEnd(4, "0")
+// const fimpastEnd = testepadEnd.padEnd(4, "0")
 
-console.log(testepadEnd);
+// console.log(testepadEnd);
 
-console.log(fimpastEnd);
+// console.log(fimpastEnd);
+
+
+
+// const frase = "o rato roeu a roupa do rei de roma"
+
+// const arraydafrase = frase.split(" ");
+
+// console.log(arraydafrase);
+
+
+// const frasedenovo = arraydafrase.join(" ")
+
+// console.log(frasedenovo)
+
+
+const comprarr = ["mouse", "teclado", "fones"]
+
+const denovo = comprarr.join(" ")
+
+console.log(denovo)
