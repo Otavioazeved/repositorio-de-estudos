@@ -273,16 +273,32 @@
   
 
 // trim 
-const trimTeste  = "   testando \n   "
-const trimTeste2 = "   testando \n   "
+// const trimTeste  = "   testando \n   "
+// const trimTeste2 = "   testando \n   "
 
-console.log(trimTeste);
+// console.log(trimTeste);
 
-console.log(trimTeste.trim());
+// console.log(trimTeste.trim());
 
-console.log(trimTeste2);
+// console.log(trimTeste2);
 
-console.log(trimTeste2.trim())
+// console.log(trimTeste2.trim())
 
-console.log(trimTeste.length);
-console.log(trimTeste.trim().length)
+// console.log(trimTeste.length);
+// console.log(trimTeste.trim().length)
+
+
+
+
+const iniciopad = "2";
+
+const inicio2 = iniciopad.padStart(6, "0");
+
+console.log(iniciopad);
+
+console.log(inicio2);
+
+
+const testepadEnd = inicio2.padEnd(2, "0")
+
+console.log(testepadEnd)
