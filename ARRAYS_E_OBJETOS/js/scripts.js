@@ -299,6 +299,10 @@ console.log(iniciopad);
 console.log(inicio2);
 
 
-const testepadEnd = inicio2.padEnd(2, "0")
+const testepadEnd = "3"
 
-console.log(testepadEnd)
+const fimpastEnd = testepadEnd.padEnd(4, "0")
+
+console.log(testepadEnd);
+
+console.log(fimpastEnd);
