@@ -321,8 +321,32 @@
 // console.log(frasedenovo)
 
 
-const comprarr = ["mouse", "teclado", "fones"]
+// const comprarr = ["mouse", "teclado", "fones"]
 
-const denovo = comprarr.join(" ")
+// const denovo = comprarr.join(" ")
 
-console.log(denovo)
+// console.log(denovo)
+//    for, for or, for in 
+
+
+// const users = ["joao", "maria", "leticia"]
+
+// for(let name of users) {
+//     console.log(name)
+// }
+
+
+
+
+// const names = ["maria clara", "otavio henrique", "daniela marques"]
+//   for (let name of names)
+//    {    console.log(name }
+
+
+ const user = {name: "otavio"
+ , age: 22,
+  job: "programador"}
+
+  for(let key in user) {
+    console.log    ( key  + user[key])
+  }
