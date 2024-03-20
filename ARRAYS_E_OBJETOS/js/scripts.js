@@ -25,4 +25,4 @@ let todList = ["maria", "otavio", "josé"]
 
 let [ nome1, nome2, nome3] = todList;
 
-console.log(nome1, nome2, nome3)
+console.log(nome1, nome2, nome3);
