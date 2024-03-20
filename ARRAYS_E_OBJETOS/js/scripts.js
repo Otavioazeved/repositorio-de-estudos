@@ -1,28 +1,41 @@
-// destruturing em obejtos
+// // destruturing em obejtos
 
-const userDetails = {
-  firstName: "otavio",
-  lastName: "azevedo",
-  Job:"programador",
+// const userDetails = {
+//   firstName: "otavio",
+//   lastName: "azevedo",
+//   Job:"programador",
 
-};
-const { firstName, lastName, Job} = userDetails;
+// };
+// const { firstName, lastName, Job} = userDetails;
 
-console.log(firstName, lastName, Job);
+// console.log(firstName, lastName, Job);
 
 
-// destructuring com arrays
+// // destructuring com arrays
 
-const myList = ["aviao", "submarino", "carro", "bike"]
+// const myList = ["aviao", "submarino", "carro", "bike"]
 
-const [veiculoA, veiculoB, veiculoC] =  myList;
+// const [veiculoA, veiculoB, veiculoC] =  myList;
 
-console.log(veiculoA, veiculoB, veiculoC);
+// console.log(veiculoA, veiculoB, veiculoC);
 
-// praticando
+// // praticando
 
-let todList = ["maria", "otavio", "josé"]
+// let todList = ["maria", "otavio", "josé"]
 
-let [ nome1, nome2, nome3] = todList;
+// let [ nome1, nome2, nome3] = todList;
 
-console.log(nome1, nome2, nome3);
+// console.log(nome1, nome2, nome3);
+
+// json para objeto e obejto para json 
+
+const myJson = '{"name": "otavio", "age": 22, "job": "programador"}';
+const myObject = (JSON.parse(myJson));
+
+console.log(myJson)
+console.log(myObject);
+
+
+const myNewJson = JSON.stringify(myObject)
+
+console.log(myNewJson)
