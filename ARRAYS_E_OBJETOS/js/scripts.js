@@ -18,3 +18,11 @@ const myList = ["aviao", "submarino", "carro", "bike"]
 const [veiculoA, veiculoB, veiculoC] =  myList;
 
 console.log(veiculoA, veiculoB, veiculoC);
+
+// praticando
+
+let todList = ["maria", "otavio", "josé"]
+
+let [ nome1, nome2, nome3] = todList;
+
+console.log(nome1, nome2, nome3)
