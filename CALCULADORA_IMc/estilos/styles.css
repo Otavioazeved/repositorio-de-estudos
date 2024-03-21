@@ -18,3 +18,12 @@ button{
     color: orange;
     width: 290px;
 }
+
+.result {
+    background-color: black;
+    color: orange;
+    height:150px ;
+    width: 300px;
+    
+    
+}
