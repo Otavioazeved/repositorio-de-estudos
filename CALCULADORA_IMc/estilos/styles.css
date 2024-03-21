@@ -1,6 +1,7 @@
 body {
     background: orange;
     text-align: center;
+    
 }
 .tittle {
     text-decoration:underline;
@@ -17,6 +18,3 @@ button{
     color: orange;
     width: 290px;
 }
-
-
-
