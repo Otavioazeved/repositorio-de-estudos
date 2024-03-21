@@ -1,0 +1,22 @@
+body {
+    background: orange;
+    text-align: center;
+}
+.tittle {
+    text-decoration:underline;
+}
+
+input {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+
+button{
+    background-color: black;
+    color: orange;
+    width: 290px;
+}
+
+
+
