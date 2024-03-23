@@ -3,7 +3,7 @@ const buttons = document.getElementById('buttons');
 let colorIndex = 0;
 
 const trafficLight = (event) => {
-    turnOn[event.target.id]();
+    turnOn[event.target.id](); 
     
 
 }
