@@ -93,6 +93,10 @@ body {
     transform: scale(1.05);
 }
 
+.hide{
+    display: none;
+}
+
 .pass {
     color: #fff;
     position:relative ;
@@ -107,6 +111,7 @@ body {
 }
 .container-password:hover .pass{
     visibility: visible;
+    bottom: 50px;
 
 }
 
