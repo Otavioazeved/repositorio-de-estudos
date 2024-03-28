@@ -24,19 +24,41 @@
 
 // prototypes 
 
-const text = "asd"
+// const text = "asd"
 
-console.log(Object.getPrototypeOf(text))
+// console.log(Object.getPrototypeOf(text))
 
 
-const bool = true;
+// const bool = true;
 
-console.log(Object.getPrototypeOf(bool));
+// console.log(Object.getPrototypeOf(bool));
 
-// mais sobre prototype
+// // mais sobre prototype
 
-const myObject = {
-    a: "b"
-}
+// const myObject = {
+//     a: "b"
+// }
 
-console.log(Object.getPrototypeOf(myObject))
+// console.log(Object.getPrototypeOf(myObject))
+
+
+// classes básicas  
+
+
+const cachorro = {
+    raca: null,
+    patas: 4
+};
+
+
+ const pastorAlemao = Object.create(cachorro)
+
+ pastorAlemao.raca = "pastor alemao";
+
+ console.log(pastorAlemao)
+console.log(pastorAlemao.patas)
+
+const pincher = Object.create(cachorro);
+
+pincher.raca = "pincher";
+console.log(pincher)
