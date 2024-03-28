@@ -8,7 +8,11 @@ let lista = []
 
 
 function ceu() {
-    lista.push(input.value)
+    lista.push({
+        tarefa: input.value,
+        concluida: false
+
+    })
     input.value = ''
     mostrarTarefas()
 
@@ -17,16 +21,23 @@ function ceu() {
 function mostrarTarefas() {
     let novaLi = ''
 
-    lista.forEach((tarefa, posicao) => {
-        novaLi =novaLi + `  <li class="task">
-                        <img src="img/checked.png" alt="checked na tarefa">
-                        <p>${tarefa}</p>
+    lista.forEach((item, posicao) => {
+        novaLi =novaLi + `  <li class="task class ="${item.concluida && "done"}" >
+                        <img src="img/checked.png" alt="checked na tarefa" onclick="concluirTarefa(${posicao})">
+                        <p>${item.tarefa}</p>
                       <img src="img/trash.png" alt="tarefa-trash" onclick="deletarItem(${posicao})">
                     </li>`
 
     })
     listaCompleta.innerHTML = novaLi
 
+}
+
+function concluirTarefa (posicao) {
+    lista[posicao]. concluida = !lista[posicao].concluida
+    mostrarTarefas()
+
+    
 }
 
 function deletarItem(posicao) {
