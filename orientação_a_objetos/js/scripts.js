@@ -95,8 +95,36 @@ console.log(criarCachorro)
 
 
 //  funções construtoras usando new 
-// palavra chave new 
+// palavra chave new usado para instaciar um novo objeto 
+// objeto sendo criado por meio de uma função, ja entrega o objeto pronto
 
+function Cachorro (nome, raca) {
+    this.nome = nome
+    this.raca = raca
+
+}
+
+
+const husky = new Cachorro("ozzy", "husky")
+
+
+console.log(husky)
+
+// instanciar é basicamente criar um objeto a base de uma função especifica...
+
+
+
+function Escola(nome, alunos, professores) {
+    this.nome = nome;
+    this.alunos = alunos;
+    this.professores = professores;
+
+}
+
+
+const saida = new Escola("Escola nova vida", "204 alunos", "35 professores");
+
+console.log(saida);
 
 
 
