@@ -45,20 +45,68 @@
 // classes básicas  
 
 
-const cachorro = {
-    raca: null,
-    patas: 4
-};
+// const cachorro = {
+//     raca: null,
+//     patas: 4
+// };
 
 
- const pastorAlemao = Object.create(cachorro)
+//  const pastorAlemao = Object.create(cachorro)
 
- pastorAlemao.raca = "pastor alemao";
+//  pastorAlemao.raca = "pastor alemao";
 
- console.log(pastorAlemao)
-console.log(pastorAlemao.patas)
+//  console.log(pastorAlemao)
+// console.log(pastorAlemao.patas)
 
-const pincher = Object.create(cachorro);
+// const pincher = Object.create(cachorro);
 
-pincher.raca = "pincher";
-console.log(pincher)
+// pincher.raca = "pincher";
+// console.log(pincher)
+
+
+
+
+
+// classes baseadas em funções construtoras...
+//  construtora tem objetivo instacnciar um objeto ou seja criar um novo objeto 
+
+
+// função como classe - função construtora;;;
+
+
+
+function criarCachorro(nome, raca) {
+    const cachorro = Object.create({})
+    cachorro.nome = nome
+    cachorro.raca = raca
+     return cachorro 
+     }
+
+console.log(criarCachorro)
+
+
+ const bob = criarCachorro("bob", "vira lata");
+
+ console.log(bob);
+
+ const jack = criarCachorro("jack", "pitbull");
+
+ console.log(jack);
+
+
+//  funções construtoras usando new 
+// palavra chave new 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
