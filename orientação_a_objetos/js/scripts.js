@@ -127,6 +127,30 @@ const saida = new Escola("Escola nova vida", "204 alunos", "35 professores");
 console.log(saida);
 
 
+// classes de funções com metódos
+// para adicionar métodos, antes da criação do obejto podemos acessar o prototype e coloca-los la...
+
+// métodos na função construtora..
+
+
+
+
+
+
+
+function Carro(nome, modelo, kilometragem, cor, combustivel ) {
+    this.nome = nome;
+    this.modelo = modelo;
+    this.kilometragem = kilometragem;
+    this.cor = cor;
+    this.combustivel = combustivel;
+}
+
+const meuCarro = new Carro("corsa", "chevrolet", "160milkm", "preto", "gnv")
+
+console.log(meuCarro)
+
+
 
 
 
