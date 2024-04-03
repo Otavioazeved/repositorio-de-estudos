@@ -110,8 +110,14 @@ const MyObject = {
 
 }
 
-console.log(Object.getPrototypeOf(MyObject))
+console.log(Object.getPrototypeOf(MyObject) === Object.getPrototypeOf(MyObject))
 
+
+const NossoObject = Object.create(MyObject)
+
+NossoObject.a = "c"
+
+console.log(NossoObject)
 
 
  
