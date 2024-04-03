@@ -82,12 +82,29 @@
 // symbols são unicos e imutaveis, ou seja quando eu crio um ele não pode ser alterado
 // propriedade que a gente nao quer correr o risco de que tenha um conlitos de nomes...
 
-class Aviao {
-    constructor(marca, turbinas) [
-        this.marca = marca;
-        this.turbinas = turbinas;
-    ]
+// class Aviao {
+//     constructor(marca, turbinas) [
+//         this.marca = marca;
+//         this.turbinas = turbinas;
+//     ]
+// }
+
+const MinhaLoja = {
+    cor: "azul",
+    comodos: "4 comodos",
+    tamanho: "pequena"
 }
+
+console.log(MinhaLoja)
+
+
+const OutraLoja = Object.create(MinhaLoja);
+OutraLoja.comodo = "6 comodos"
+
+console.log(OutraLoja)
+
+
+
  
 
 
