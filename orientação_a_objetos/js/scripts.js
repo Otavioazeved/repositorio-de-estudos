@@ -89,19 +89,28 @@
 //     ]
 // }
 
-const MinhaLoja = {
-    cor: "azul",
-    comodos: "4 comodos",
-    tamanho: "pequena"
+// const MinhaLoja = {
+//     cor: "azul",
+//     comodos: "4 comodos",
+//     tamanho: "pequena"
+// }
+
+// console.log(MinhaLoja)
+
+
+// const OutraLoja = Object.create(MinhaLoja);
+// OutraLoja.comodo = "6 comodos"
+
+// console.log(OutraLoja)
+
+
+
+const MyObject = {
+    a: "b"
+
 }
 
-console.log(MinhaLoja)
-
-
-const OutraLoja = Object.create(MinhaLoja);
-OutraLoja.comodo = "6 comodos"
-
-console.log(OutraLoja)
+console.log(Object.getPrototypeOf(MyObject))
 
 
 
