@@ -32,18 +32,45 @@
 //  minhao.descreverCaminhao();
 
 
- class Ytube {
-    constructor(ano, canais, lives) {
-        this.ano = ano;
-        this.canais = canais;
-        this.lives = lives;
+//  class Ytube {
+//     constructor(ano, canais, lives) {
+//         this.ano = ano;
+//         this.canais = canais;
+//         this.lives = lives;
+//     }
+//  }
+
+// const chanel = new Ytube (1998, "2450 canais de yt", "13000 mil lives simultaneas")
+// console.log(chanel)
+
+
+// override nas prop via prototype (substituição quando tem um valor e troca pelo outro)  instancias baseadas nas classe, 
+
+class Humano {
+    constructor(idade, nome) {
+        this.idade = idade;
+        this.nome = nome;
+    
+
     }
- }
+}
 
-const chanel = new Ytube (1998, "2450 canais de yt", "13000 mil lives simultaneas")
-console.log(chanel)
+const otavio = new Humano(22, "otavio")
+console.log(otavio)
 
 
+class Animal {
+    constructor(nome, idade, sexo){
+        this.nome = nome;
+        this.idade = idade;
+        this.sexo = sexo;
+
+    }
+}
+
+const MeuAnimal = new Animal("leopardo", 6, "masculino")
+
+console.log(MeuAnimal)
 
 
 
