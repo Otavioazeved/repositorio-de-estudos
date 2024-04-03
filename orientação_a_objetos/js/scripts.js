@@ -46,17 +46,17 @@
 
 // override nas prop via prototype (substituição quando tem um valor e troca pelo outro)  instancias baseadas nas classe, 
 
-class Humano {
-    constructor(idade, nome) {
-        this.idade = idade;
-        this.nome = nome;
+// class Humano {
+//     constructor(idade, nome) {
+//         this.idade = idade;
+//         this.nome = nome;
     
 
-    }
-}
+//     }
+// }
 
-const otavio = new Humano(22, "otavio")
-console.log(otavio)
+// const otavio = new Humano(22, "otavio")
+// console.log(otavio)
 
 
 class Animal {
@@ -71,6 +71,12 @@ class Animal {
 const MeuAnimal = new Animal("leopardo", 6, "masculino")
 
 console.log(MeuAnimal)
+
+
+Animal.prototype.idade = "não definida"
+console.log(MeuAnimal.idade)
+console.log(Animal.prototype.idade)
+
 
 
 
