@@ -26,3 +26,23 @@ section{
     border-radius: 8px;
 
 }
+
+footer{
+    text-align: center;
+    margin-top: 150px;
+}
+/* id é hashtag */
+
+select#flista {
+    width: 150px;
+
+}
+
+/* geralmente eu uso mais pra estilizar, e nas class eu uso .e coloco o nome e ai começo a estilizar. */
+
+
+.finish{
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+}
