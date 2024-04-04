@@ -105,20 +105,30 @@
 
 
 
-const MyObject = {
-    a: "b"
+// const MyObject = {
+//     a: "b"
 
-}
+// }
 
-console.log(Object.getPrototypeOf(MyObject) === Object.getPrototypeOf(MyObject))
+// console.log(Object.getPrototypeOf(MyObject) === Object.getPrototypeOf(MyObject))
 
 
-const NossoObject = Object.create(MyObject)
+// const NossoObject = Object.create(MyObject)
 
-NossoObject.a = "c"
+// NossoObject.a = "c"
 
-console.log(NossoObject)
+// console.log(NossoObject)
 
+//  estudnao novamente o for
+
+
+// for(let i = 1; i <= 5; i++)
+
+// console.log(i)
+
+// incializador; condição; incrementador
+ for(let b = 10; b >= 1; b--)
+ console.log(b)
 
  
 
