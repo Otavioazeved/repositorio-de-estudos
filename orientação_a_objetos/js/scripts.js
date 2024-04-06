@@ -126,9 +126,8 @@
 
 // console.log(i)
 
-// incializador; condição; incrementador
-//  for(let b = 10; b >= 1; b--)
-//  console.log(b)
+
+// 
 
  
 
