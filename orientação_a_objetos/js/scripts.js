@@ -136,8 +136,19 @@
 
 // no constructor n sou obrigado a passar todos os parametros
 
- 
 
+
+class Escala{
+    constructor(escalado, troca) {
+        this.troca = troca;
+        this.escalado = escalado;
+    }
+    let Minhaescala("sandro", "jose")
+
+}
+
+Minha
+ 
 
 
 
