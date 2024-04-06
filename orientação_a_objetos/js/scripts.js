@@ -136,6 +136,8 @@
 
 // no constructor n sou obrigado a passar todos os parametros
 
+// rever essa aual de novo pq eu não entendi foi nada 
+
 class Post{
     constructor(titulo, tags, descricao) {
         this.titulo = titulo;
