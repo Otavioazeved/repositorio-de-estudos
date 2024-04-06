@@ -127,7 +127,14 @@
 // console.log(i)
 
 
-// 
+// getters e setters
+//  GET é um metodo usado para EXIBIR o valor de alguma propriedade
+
+// SET usado para ALTERAR o valor
+
+// atraves desses metodos temso um bloco de codigo para transformação de dados....
+
+// no constructor n sou obrigado a passar todos os parametros
 
  
 
