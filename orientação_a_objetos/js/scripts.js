@@ -138,14 +138,27 @@
 
 // rever essa aual de novo pq eu não entendi foi nada 
 
-class Post{
-    constructor(titulo, tags, descricao) {
-        this.titulo = titulo;
-        this.tags = tags;
-        this.descricao = descricao;
-    }
+// class Post{
+//     constructor(titulo, tags, descricao) {
+//         this.titulo = titulo;
+//         this.tags = tags;
+//         this.descricao = descricao;
+//     }
    
+// }
+
+class Post {
+    constructor(nome, idade, sexo) {
+        this.nome = nome;
+        this.idade = idade;
+        this.sexo = sexo;
+    
+    }
 }
+
+const VaiLa = new Post("otavio", 22, "masculino")
+
+console.log(VaiLa);
 
 
 
