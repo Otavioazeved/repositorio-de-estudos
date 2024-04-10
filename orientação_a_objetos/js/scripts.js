@@ -223,7 +223,34 @@ Robo2.pular();
 
 
 
+class Dispositivo {
+    constructor(nome) {
+        this.nome = nome;
+        this.ligado = true;
 
+    }
+    ligar() {
+        if(this.ligado) {
+            console.log(this.nome + " ligado")
+            return
+        }
 
+        this.ligado = true;
+
+    }
+
+    desligar() {
+        if (this.delsigado){
+            console.log(this.nome + " desligado")
+            return
+        }
+
+        this.delsigado = false
+    }
+
+}
+
+let d1 = new Dispositivo("samsung")
+console.log(d1)
 
 
