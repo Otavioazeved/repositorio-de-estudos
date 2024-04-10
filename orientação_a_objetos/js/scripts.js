@@ -147,18 +147,78 @@
    
 // }
 
-class Post {
-    constructor(nome, idade, sexo) {
-        this.nome = nome;
-        this.idade = idade;
-        this.sexo = sexo;
+// class Post {
+//     constructor(nome, idade, sexo) {
+//         this.nome = nome;
+//         this.idade = idade;
+//         this.sexo = sexo;
     
+//     }
+// }
+
+// const VaiLa = new Post("otavio", 22, "masculino")
+
+// console.log(VaiLa);
+
+
+
+// herança..
+
+// comando extends define que existe uma herança... ou seja vai herdar a classe
+
+
+// class Mamifero{
+//     constructor(patas) {
+//         this.patas = patas;
+//     }
+// }
+
+// class Lobo extends Mamifero {
+//     constructor(patas, nome) {
+//         super (patas, patas)
+//         this.nome = nome 
+//     }
+// }
+
+
+// const shark = new Lobo(4, "shark")
+
+// console.log(shark)
+
+class Robo {
+    constructor(nome) {
+        this.nome = nome;
+        
+
+    }
+        andar() {
+            console.log(this.nome + " esta andando.");
+        }   
+
+        falar() {
+            console.log(this.nome + " esta falando")
+        }
+    }
+
+const MeuRobo = new Robo("R2D2")
+
+MeuRobo.andar();
+MeuRobo.falar();
+
+
+
+
+class NossoRobo extends Robo{
+    pular() {
+        console.log(this.nome + " esta pulando")
     }
 }
 
-const VaiLa = new Post("otavio", 22, "masculino")
 
-console.log(VaiLa);
+const Robo2 = new NossoRobo("R2D2")
+
+Robo2.pular();
+
 
 
 
