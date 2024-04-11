@@ -254,3 +254,5 @@ let d1 = new Dispositivo("samsung")
 console.log(d1)
 
 
+
+
