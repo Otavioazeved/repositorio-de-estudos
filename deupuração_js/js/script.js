@@ -10,4 +10,27 @@
 
 "use strict";
 
-const undefined = "teste"
+// utilizando o debbug... instrução q nos permite o debug no console do navegador 
+
+
+// let c = 1 
+// let d = 2
+
+// if(c == 1 ) {
+//     c = d + 2
+//     console.log(c)
+// }
+
+// debugger;
+
+// for(let i = 0; i < d; i++) {
+//     c = c + 2
+// }
+
+// console.log("executou o codigo")
+
+// debugger;
+
+// if(c > 5){
+//     c = 25;
+// }
