@@ -50,16 +50,17 @@
 //     }
 // checkArray([])
 
-function olhaMeuarray (err) {
-    if(err.length >= 0) {
-        throw new Error("o array precisa ter elementos ")
-    } else{
-        console.log(`o array tem ${err.length} elementos`)
-    }
 
-}
+// function olhaMeuarray (err) {
+//     if(err.length === 0) {
+//         throw new Error ("o array precisa ter elementos ")
+//     } else{
+//         console.log(`o array tem ${err.length} elementos`)
+//     }
 
-olhaMeuarray([5, 2])
+// }
+
+// olhaMeuarray([1, 2, 3, 4, 5, 6, 7, 8, 9])
 
 
 
