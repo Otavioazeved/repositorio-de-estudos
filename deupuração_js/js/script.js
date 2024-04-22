@@ -8,7 +8,7 @@
 // strict.....
 // strict é um conserta programador, fica me mostrando td que to errando
 
-"use strict";
+// "use strict";
 
 // utilizando o debbug... instrução q nos permite o debug no console do navegador 
 
@@ -34,3 +34,34 @@
 // if(c > 5){
 //     c = 25;
 // }
+
+
+// ASSERTIONS são quando os tratamentos de valores paasados pelo usuariO geram um erro, é algo para os devs e não para os usuários...
+// ajuda os devs no desenvolvimento do programa, assertion nos ajudam a varificar se o programa está saindo como o planejado.
+
+
+
+// function checkArray (arr) {
+//     if(arr.length === 0){
+//         throw new Error ("o array precisa tere elementos")
+//     } else{
+//         console.log(`o array trm ${arr.length} elementos`)
+//     }
+//     }
+// checkArray([])
+
+function olhaMeuarray (err) {
+    if(err.length >= 0) {
+        throw new Error("o array precisa ter elementos ")
+    } else{
+        console.log(`o array tem ${err.length} elementos`)
+    }
+
+}
+
+olhaMeuarray([5, 2])
+
+
+
+
+
