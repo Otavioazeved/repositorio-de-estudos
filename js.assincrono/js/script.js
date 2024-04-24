@@ -9,6 +9,19 @@
 // setTimeout(funcao, tempo);
 
 
-setTimeout(function() {
-    document.querySelector("#text").innerText = "ola, maria clara, o que voce deseja?"
-}, 3000)
+function ativarContagem() {
+    document.getElementById("tempo").innerHTML = "começou a contar"
+    setTimeout(function(){
+document.getElementById("tempo").innerHTML = "executou o setTimeout"
+    },5000)
+}
+
+// }
+
+
+ setTimeout(function(){
+    console.log("hello")
+ }, 3000)
+// timeout ativa a função apenas 1 vez quando der o tempo especificado 
+
+
