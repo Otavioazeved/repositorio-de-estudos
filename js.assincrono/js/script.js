@@ -6,8 +6,9 @@
 // o tempo é milesimos de segundos     3000 é 3 segundos exemplos
 
 
+// setTimeout(funcao, tempo);
 
 
-setTimeout(function () {
-    document.querySelector('#text').innerText = 'hello word'
-}, 1000)
+setTimeout(function() {
+    document.querySelector("#text").innerText = "ola, maria clara, o que voce deseja?"
+}, 3000)
