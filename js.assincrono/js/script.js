@@ -35,11 +35,49 @@
 
 // setInterval
 
-  console.log("ainda não comecou")
+//   console.log("ainda não comecou")
 
 
-setInterval(function () {
-    console.log("intervalo assincrono")
-}, 3000)
+// setInterval(function () {
+//     console.log("intervalo assincrono")
+// }, 3000)
 
-console.log("ainda não começou 2")
+// console.log("ainda não começou 2")
+
+
+// setInterval usado para executar uma tarefa repetidamente 
+
+
+// cleartimeout faz parar a contagem clearTimeout(qual variavel quer que pare )
+
+// setTimeout executa uma função depois de esperar um nuemro especifico de tempo de milisegundos
+// setInterval é os mesmo de setTimeout, porém ele executa a função de maneira continuamente
+
+function ativarContagem() {
+    // document.getElementById("tempo").innerHTML = "começou a contar"
+
+//     tempo = setTimeout(function(){
+// document.getElementById("tempo").innerHTML = "executou o setTimeout"
+//     }, 5000)
+  tempo = setInterval(function(){
+    var cronometro = document.getElementById("tempo").innerHTML;
+    var soma = parseInt (cronometro) + 1;
+    document.getElementById("tempo").innerHTML = soma
+}, 1000)
+
+
+}
+
+// parseInt para transforma texto em numero 
+
+// para parar uma contagem tem que colocar o setTimeout dentro de uma variavel no caso ali é "tempo" var global ser ter o var o let por causa do escopo
+
+
+function pararContagem (){
+    clearInterval(tempo);
+    document.getElementById("tempo").innerHTML = "parou a contagem"
+}
+
+
+
+// para parar uma setInterval é so usar o clearInterval(e a a variavel )
