@@ -53,38 +53,37 @@
 // setTimeout executa uma função depois de esperar um nuemro especifico de tempo de milisegundos
 // setInterval é os mesmo de setTimeout, porém ele executa a função de maneira continuamente
 
-function ativarContagem() {
+// function ativarContagem() {
     // document.getElementById("tempo").innerHTML = "começou a contar"
 
 //     tempo = setTimeout(function(){
 // document.getElementById("tempo").innerHTML = "executou o setTimeout"
 //     }, 5000)
-   tempo = setInterval(function(){
-    var cronometro = document.getElementById("tempo").innerHTML;
-    var soma = parseInt (cronometro) - 1;
+//    tempo = setInterval(function(){
+//     var cronometro = document.getElementById("tempo").innerHTML;
+//     var soma = parseInt (cronometro) - 1;
 
-    if(soma === 0 ){
-        document.getElementById("tempo").innerHTML = "tempo esgotado"
-      pararContagem ()
-    }else {
-        document.getElementById("tempo").innerHTML = soma
-    }
-    document.getElementById("tempo").innerHTML = soma
+//     if(soma === 0 ){
+//         document.getElementById("tempo").innerHTML = "tempo esgotado"
+//       pararContagem ()
+//     }else {
+//         document.getElementById("tempo").innerHTML = soma
+//     }
+//     document.getElementById("tempo").innerHTML = soma
 
-}, 1000)
+// }, 1000)
 
 
-}
 
 // parseInt para transforma texto em numero 
 
 // para parar uma contagem tem que colocar o setTimeout dentro de uma variavel no caso ali é "tempo" var global ser ter o var o let por causa do escopo
 
 
-function pararContagem () {
-    clearInterval(tempo);
-    document.getElementById("tempo").innerHTML = "tempo esgotado"
-}
+// function pararContagem () {
+//     clearInterval(tempo);
+//     document.getElementById("tempo").innerHTML = "tempo esgotado"
+// }
 
 
 
