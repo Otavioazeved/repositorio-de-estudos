@@ -59,9 +59,9 @@ function ativarContagem() {
 //     tempo = setTimeout(function(){
 // document.getElementById("tempo").innerHTML = "executou o setTimeout"
 //     }, 5000)
-  tempo = setInterval(function(){
+   tempo = setInterval(function(){
     var cronometro = document.getElementById("tempo").innerHTML;
-    var soma = parseInt (cronometro) + 1;
+    var soma = parseInt (cronometro) - 1;
     document.getElementById("tempo").innerHTML = soma
 }, 1000)
 
@@ -73,11 +73,10 @@ function ativarContagem() {
 // para parar uma contagem tem que colocar o setTimeout dentro de uma variavel no caso ali é "tempo" var global ser ter o var o let por causa do escopo
 
 
-function pararContagem (){
+function pararContagem () {
     clearInterval(tempo);
-    document.getElementById("tempo").innerHTML = "parou a contagem"
 }
 
 
 
-// para parar uma setInterval é so usar o clearInterval(e a a variavel )
+// para parar uma setInterval é so usar o clearInterval(e a variavel )
