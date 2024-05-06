@@ -145,3 +145,6 @@ const p3 = new Promise((resolve, reject) =>{
 });
 
 Promise.all([p1, p2, p3]).then((values) => console.log(values) )
+
+
+
