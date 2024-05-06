@@ -97,54 +97,64 @@
 // promises é um objeto q é construido utilizando uma função construtora de promises
 
 
-const umaPromessa = new Promise((resolve, reject) => { 
+// const umaPromessa = new Promise((resolve, reject) => { 
 
-    let soma = 1 + 3
-    if(soma === 4) {
-        resolve('tudo certo')
-    }else{
-        reject('deu ruim')
-    }
+//     let soma = 1 + 3
+//     if(soma === 4) {
+//         resolve('tudo certo')
+//     }else{
+//         reject('deu ruim')
+//     }
 
+// })
+
+// // then é porque a função foi resolvida
+// // se der reject ela vai entrar no reject
+// // e se deu algum dos dois ele vai ir p finally independente do resultado
+
+// console.log('esperando promise')
+
+
+// umaPromessa.then((resultado) => {
+//     console.log(`valor do then: ${resultado}`)
+
+// }).catch((erro) =>{
+//     console.log(`valor do catch: ${erro}`)
+// }).finally(() =>{
+//     console.log("idependente do resultado estarei aqui ")
+// })
+
+// // método all da p executar varias promises....
+
+
+// const p1 = new Promise((resolve, reject)=>  {
+//     setTimeout(function() {
+//         resolve(10)
+//     },1000)
+// })
+
+// const p2 = Promise.resolve(10 + 10);
+
+
+// const p3 = new Promise((resolve, reject) =>{
+//     if(30 > 10 ){
+//         resolve(30)
+//     }else{
+//         reject("erro")
+//     }
+// });
+
+// Promise.all([p1, p2, p3]).then((values) => console.log(values) )
+
+
+// async functions: são funçoes que retornam Promises
+
+
+
+async function somarComdelay(a, b) {
+    return a + b;
+}
+
+somarComdelay(2, 4).then((value) => {
+    console.log(`o valor da soma é: ${value}`);
 })
-
-// then é porque a função foi resolvida
-// se der reject ela vai entrar no reject
-// e se deu algum dos dois ele vai ir p finally independente do resultado
-
-console.log('esperando promise')
-
-
-umaPromessa.then((resultado) => {
-    console.log(`valor do then: ${resultado}`)
-
-}).catch((erro) =>{
-    console.log(`valor do catch: ${erro}`)
-}).finally(() =>{
-    console.log("idependente do resultado estarei aqui ")
-})
-
-// método all da p executar varias promises....
-
-
-const p1 = new Promise((resolve, reject)=>  {
-    setTimeout(function() {
-        resolve(10)
-    },1000)
-})
-
-const p2 = Promise.resolve(10 + 10);
-
-
-const p3 = new Promise((resolve, reject) =>{
-    if(30 > 10 ){
-        resolve(30)
-    }else{
-        reject("erro")
-    }
-});
-
-Promise.all([p1, p2, p3]).then((values) => console.log(values) )
-
-
-
