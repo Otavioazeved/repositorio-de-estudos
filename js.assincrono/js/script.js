@@ -88,3 +88,38 @@
 
 
 // para parar uma setInterval é so usar o clearInterval(e a variavel )
+
+
+
+
+
+
+// promises é um objeto q é construido utilizando uma função construtora de promises
+
+
+const umaPromessa = new Promise((resolve, reject) => { 
+
+    let soma = 1 + 3
+    if(soma === 4) {
+        resolve('tudo certo')
+    }else{
+        reject('deu ruim')
+    }
+
+})
+
+// then é porque a função foi resolvida
+// se der reject ela vai entrar no reject
+// e se deu algum dos dois ele vai ir p finally independente do resultado
+
+console.log('esperando promise')
+
+
+umaPromessa.then((resultado) => {
+    console.log(`valor do then: ${resultado}`)
+
+}).catch((erro) =>{
+    console.log(`valor do catch: ${erro}`)
+}).finally(() =>{
+    console.log("idependente do resultado estarei aqui ")
+})
