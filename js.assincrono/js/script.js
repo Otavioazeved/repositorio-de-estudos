@@ -151,10 +151,21 @@
 
 
 
-async function somarComdelay(a, b) {
-    return a + b;
-}
+// async function somarComdelay(a, b) {
+//     return a + b;
+// }
 
-somarComdelay(2, 4).then((value) => {
-    console.log(`o valor da soma é: ${value}`);
-})
+// somarComdelay(2, 4).then((value) => {
+//     console.log(`o valor da soma é: ${value}`);
+// })
+
+// const coffe = new Promise((resolve, reject) => {
+//     reject({message: "joao não quebrou a promessa"})
+// })
+
+// coffe
+// .then((resolve) => {
+//     console.log(resolve)
+// }).catch ((reject) => {
+//     console.log('reject', reject )
+// })
