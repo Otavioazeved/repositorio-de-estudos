@@ -123,3 +123,25 @@ umaPromessa.then((resultado) => {
 }).finally(() =>{
     console.log("idependente do resultado estarei aqui ")
 })
+
+// método all da p executar varias promises....
+
+
+const p1 = new Promise((resolve, reject)=>  {
+    setTimeout(function() {
+        resolve(10)
+    },1000)
+})
+
+const p2 = Promise.resolve(10 + 10);
+
+
+const p3 = new Promise((resolve, reject) =>{
+    if(30 > 10 ){
+        resolve(30)
+    }else{
+        reject("erro")
+    }
+});
+
+Promise.all([p1, p2, p3]).then((values) => console.log(values) )
