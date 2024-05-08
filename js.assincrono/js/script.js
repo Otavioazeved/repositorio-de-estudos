@@ -177,6 +177,20 @@
 // essas operações são uteis quando vc precisa acessar o sistema de arquivos, fazer solitações de rede...
 // toda funçãoa assincrona no js retorna uma promise, uma função assincrona permite "aguardar" pela resposta da promise
 // then sig "quando vc tiver resposta da promise retorna pra mim aqui dentro dessa função "
+// quando eu tenho uma promise algo vai ser resolvido apos um tempo 
+
+
+
+// comentario de uma linha
+
+
+/* comentantario 
+de mais linhas 
+aqui estou */
+
+
+
+
 
 
 function resolveComdelay() {
@@ -188,10 +202,11 @@ function resolveComdelay() {
 }
 
 
-async function chamadaAsync() {
+ async function chamadaAsync() {
     console.log("chamando a promise, e esperando o resultado")
         const result = await resolveComdelay()
         console.log(`o resultado chegou: ${result}`)
 }
 
 chamadaAsync()
+
