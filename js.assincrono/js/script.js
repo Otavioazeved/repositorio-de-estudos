@@ -184,28 +184,27 @@ aqui estou */
 
 
 
+// preparando a promise, vulgo promessa de alguma coisa.
 
-
-// aqui eu faço a promessa  
-
- function funçãoComdelay(){
-    return new Promise((resolve) => {
+function comDelay() {
+    return new Promise((resolve) =>{
         setTimeout(() => {
-            resolve("concluiu a Promise")
+            resolve("concluiu com eficácia")
         },3000)
     })
 }
 
-// e aqui eu ja fiz a promessa, so falta realizar as coisas agora...
 
-async function NossaDelay(){
-    console.log("chamando a Promise, e esperando o resultado ")
-    const resultado = await funçãoComdelay()
-    console.log(`o resultado chegou: ${resultado}`)
 
+// fiz a promessa e fiz um possibel resultado.
+
+async function vamoLa() {
+    console.log("preparando a função...")
+    const result = await comDelay()
+    console.log(`encontrando.... função encontrada com sucesso: ${result}`)
 }
 
-NossaDelay()
+vamoLa()
 
 
 
@@ -220,15 +219,19 @@ então todas que tem o asteristico sei que é o generator
 
 
 
-function* generator() {
-    yield 1
-    yield 2
-
+function* contador() {
+    let i = 0
+    while(true){
+        yield i
+        i++
+    }
 }
 
-const gen = generator();
 
-console.log(gen.next().value);
-console.log(gen.next().value);
+const gen = contador()
+console.log(gen.next().value)
+console.log(gen.next().value)
+
+
 
 
