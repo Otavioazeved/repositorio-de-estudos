@@ -169,3 +169,26 @@
 // }).catch ((reject) => {
 //     console.log('reject', reject )
 // })
+
+// async AWAIT serve para aguardar o resultado de uma async function
+// assim não precisaria trabalhar com Promises
+// await so funciona em funçoes assincronas então tem que ter um async function pra ele ser colocado
+
+
+// function resolveComdelay() {
+//     return new Promise(resolve => {
+//         setTimeout(() => {
+//             resolve("resolveu a Promise ")
+//         }, 5000);
+//     });
+// }
+
+// async function chamadaAsync() {
+//     console.log("chamando a Promise, e esperando o resultado")
+//     const result = await resolveComdelay()
+//     console.log(`o resultado chegou: ${result}`)
+// }
+
+// chamadaAsync()
+
+// essas operações são uteis quando vc precisa acessar o sistema de arquivos, fazer solitações de rede...
