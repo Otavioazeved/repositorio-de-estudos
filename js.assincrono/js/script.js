@@ -208,3 +208,27 @@ async function NossaDelay(){
 NossaDelay()
 
 
+
+
+
+/*
+Generetors funcionam de forma semelhante as Promises
+ações podendno ser pausadas e continuadas depois
+com novos operadores: functiom* e yield.
+então todas que tem o asteristico sei que é o generator
+*/
+
+
+
+function* generator() {
+    yield 1
+    yield 2
+
+}
+
+const gen = generator();
+
+console.log(gen.next().value);
+console.log(gen.next().value);
+
+
