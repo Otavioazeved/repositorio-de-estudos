@@ -115,14 +115,6 @@
 // console.log('esperando promise')
 
 
-// umaPromessa.then((resultado) => {
-//     console.log(`valor do then: ${resultado}`)
-
-// }).catch((erro) =>{
-//     console.log(`valor do catch: ${erro}`)
-// }).finally(() =>{
-//     console.log("idependente do resultado estarei aqui ")
-// })
 
 // // método all da p executar varias promises....
 
@@ -193,20 +185,26 @@ aqui estou */
 
 
 
-function resolveComdelay() {
+
+// aqui eu faço a promessa  
+
+ function funçãoComdelay(){
     return new Promise((resolve) => {
         setTimeout(() => {
-            resolve("resolveu a Promise")
+            resolve("concluiu a Promise")
         },3000)
     })
 }
 
+// e aqui eu ja fiz a promessa, so falta realizar as coisas agora...
 
- async function chamadaAsync() {
-    console.log("chamando a promise, e esperando o resultado")
-        const result = await resolveComdelay()
-        console.log(`o resultado chegou: ${result}`)
+async function NossaDelay(){
+    console.log("chamando a Promise, e esperando o resultado ")
+    const resultado = await funçãoComdelay()
+    console.log(`o resultado chegou: ${resultado}`)
+
 }
 
-chamadaAsync()
+NossaDelay()
+
 
