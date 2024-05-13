@@ -51,6 +51,8 @@ e com querySelector apenas um elemento, com base também um seletor de css
 
 // querySelectorAll
 
+// quando eu coloco # é pq eu to usando querySelector como se fosse um id
+
 
 const productquery = document.querySelectorAll(".product")
 
