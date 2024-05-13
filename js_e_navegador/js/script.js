@@ -29,3 +29,39 @@ console.log(tittle)
 const container = document.getElementById("main-container")
 
 console.log(container)
+
+
+// selecionando por classes getElementsByclassName
+
+// selecionamos um conjunto de elementos por classe comum 
+
+
+const products = document.getElementsByClassName("product")
+
+console.log(products)
+
+
+// método de seleção mais utilizado hoje em dia
+// querySelector
+
+/* com metodo querySelectorAll
+seleciona um conjunto de elementos por meio de um seletor de css, 
+e com querySelector apenas um elemento, com base também um seletor de css
+*/
+
+// querySelectorAll
+
+
+const productquery = document.querySelectorAll(".product")
+
+console.log(productquery)
+
+
+const maincontainer = document.querySelector("#main-container")
+
+console.log(maincontainer)
+
+
+
+
+
