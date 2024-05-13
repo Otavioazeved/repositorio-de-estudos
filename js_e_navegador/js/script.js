@@ -1,19 +1,31 @@
-/*
-Protocolos da web
+// 1 -movendo-se pelo DOM 
 
-HTTP: serve para solicitar ARQUIVOS e IMAGENS do servidor (hyper transfer protocol)
-
-SMTP: protocolo para envio de email.
+console.log(document.body)
+console.log(document.body.childNodes[2])
 
 
-TCP: utilizado para transferencia de dados
+// 2 - Selecionando os elementos
 
-URL: cada arquivo que é carregado no navegador tem uma url 
+//  getElementsByTagName
+
+//  seleciona por uma tag comum, o argumento é uma string que leva a tag   a ser selecionada 
+
+const listItens = document.getElementsByName("li")
+
+console.log(listItens)
+
+// problema dele que não tão especifico, e por isso não tão utilizado exem se eu tivesse outro li ele ia pegar ele tbm.
 
 
-DOM: representação fiel do html da pagina, quando cria um script de js e linka no html a gente tem disponivel o DOM 
-atraves dele tbm podemos atrelar eventos como click ou pressionar teclas de mouse
 
-*/
+// elementById
 
+// id é único na página
 
+const tittle = document.getElementById("tittle")
+
+console.log(tittle)
+
+const container = document.getElementById("main-container")
+
+console.log(container)
