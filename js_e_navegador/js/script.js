@@ -79,5 +79,4 @@ header.insertBefore(p, tittle)
 
 
 
-const listinha = document.querySelector("#listinha")
 
