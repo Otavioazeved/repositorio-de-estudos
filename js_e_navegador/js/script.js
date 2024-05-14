@@ -63,10 +63,21 @@ const maincontainer = document.querySelector("#main-container")
 
 console.log(maincontainer)
 
+//                          insertBefore
+// insertBefore na tradução é inserir antes
+// cria uma elemento antes de um outro, necessário criar um elemento js feito c createElement
+
+
+const p = document.createElement("p")
+
+const header= tittle.parentElement
+
+header.insertBefore(p, tittle)
 
 
 
 
 
 
+const listinha = document.querySelector("#listinha")
 
