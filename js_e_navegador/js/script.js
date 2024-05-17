@@ -68,9 +68,9 @@ console.log(maincontainer)
 // cria uma elemento antes de um outro, necessário criar um elemento js feito c createElement
 
 
-const p = document.createElement("p")
+const p = document.createElement("p");
 
-const header= tittle.parentElement
+const header= tittle.parentElement;
 
 header.insertBefore(p, tittle)
 
