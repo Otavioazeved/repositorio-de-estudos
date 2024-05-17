@@ -9,3 +9,7 @@ lista.insertBefore(novoItem, itens[0])
 
 
 console.log(itens)
+
+
+
+
