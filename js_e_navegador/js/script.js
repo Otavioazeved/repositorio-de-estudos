@@ -119,7 +119,7 @@ textContent é uma properiedade que a gente consegue colocar texto em tags
 
 
 
-
+const ul = document.querySelector("#lista22")
 
 const p = document.createElement("p");
 
