@@ -80,7 +80,7 @@ header.insertBefore(p, tittle)
 /*
 com appendChild é possivel adicionar um elemento dentro de outro,
 este elemento adicionado será o ultimo elemento do elemento pai,
-esse é um método para manipular o html e inserir elementos atráves do DOM.
+esse é um método para manipular o html e inserir novos elementos atráves do DOM.
 */
 
 
@@ -91,10 +91,13 @@ const li = document.createElement("li");
 navLinks.appendChild(li);
 
 
+
+
 const MainLinks = document.querySelector("#main-container");
 
 const h1 = document.createElement("h1");
 
-
 MainLinks.appendChild(h1)
+
+// append de acrescentar um dentro do outro e assim acontence com appendChild
 
