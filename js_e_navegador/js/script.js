@@ -127,3 +127,5 @@ p.textContent = "temporada essencial";
 
 ul.replaceChild(p, lista2);
 
+// textContent: a gente consegue colocar textos em algumas tags
+
