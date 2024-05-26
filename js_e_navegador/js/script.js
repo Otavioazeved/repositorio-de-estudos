@@ -68,11 +68,11 @@ console.log(maincontainer)
 // cria uma elemento antes de um outro, necessário criar um elemento js feito c createElement
 
 
-const p = document.createElement("p");
+// const p = document.createElement("p");
 
-const header= tittle.parentElement;
+// const header= tittle.parentElement;
 
-header.insertBefore(p, tittle)
+// header.insertBefore(p, tittle)
 
 
 // appendChild 
@@ -100,4 +100,30 @@ const h1 = document.createElement("h1");
 MainLinks.appendChild(h1)
 
 // append de acrescentar um dentro do outro e assim acontence com appendChild
+
+
+// replaceChild
+
+/* Este método é mais utilizado para fazer a troca de um elemento,
+usando novamente o elemento pai, e também o elemento para ser substituido e o que vai substituir, 
+textContent é uma properiedade que a gente consegue colocar texto em tags
+*/
+
+// const h2 = document.createElement("h2")
+
+// h2.textContent = "meu novo titulo"
+
+// header.replaceChild(h2, tittle)
+
+
+
+
+
+
+
+const p = document.createElement("p");
+
+p.textContent = "temporada essencial";
+
+ul.replaceChild(p, lista2);
 
