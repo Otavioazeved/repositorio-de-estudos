@@ -129,3 +129,39 @@ ul.replaceChild(p, lista2);
 
 // textContent: a gente consegue colocar textos em algumas tags
 
+
+
+
+// criando NÓS de textos
+
+
+/*
+os textos podem ser manipulados com métodos também,
+createTextNode
+*/
+;
+const myText = document.createTextNode("agora vamos colocar mais um titulo");
+
+console.log(myText);
+
+const h3 = document.createElement("h3")
+
+h3.appendChild(myText)
+
+console.log(h3)
+
+maincontainer.appendChild(h3)
+
+
+
+const ourText = document.createTextNode("inserindo nova tabela")
+
+console.log(ourText)
+
+const p = document.createElement("p")
+
+h1.appendChild(ourText)
+
+console.log(p)
+
+ul.appendChild(p)
