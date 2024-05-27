@@ -158,10 +158,10 @@ const ourText = document.createTextNode("inserindo nova tabela")
 
 console.log(ourText)
 
-const p = document.createElement("p")
+const h4 = document.createElement("h4")
 
 h1.appendChild(ourText)
 
-console.log(p)
+console.log(h4)
 
-ul.appendChild(p)
+ul.appendChild(h4)
