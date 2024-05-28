@@ -185,6 +185,46 @@ firstLink.setAttribute("href", "https://ge.globo.com/")
 
 
 
+// altura e largura dos elementos...
+
+/*
+é possivel pegar os valores como LARGURA e ALTURA dos elementos,
+offsetWidth e offsetHeight,
+se queremos desconsiderar as bordas tem:
+clientWidth e clientHeight
+*/
+
+const footer = document.querySelector("footer")
+
+console.log(footer.offsetHeight)
+console.log(footer.offsetWidth)
+
+console.log(footer.clientHeight)
+console.log(footer.clientWidth)
+
+
+document.getElementById("btn-set").addEventListener("click",function(){
+    document.getElementById("title").setAttribute("class", "red")
+} )
+
+document.getElementById("btn-remove").addEventListener("click",function(){
+    document.getElementById("title").removeAttribute("class",)
+} )
+
+document.getElementById("btn-get").addEventListener("click",function(){
+    var value = document.getElementById("title").getAttribute("class")
+    document.getElementById("class").innerHTML = value
+} )
+
+
+
+
+
+
+
+
+
+
 
 
 
