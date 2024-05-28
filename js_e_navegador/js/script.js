@@ -165,3 +165,25 @@ h1.appendChild(ourText)
 console.log(h4)
 
 ul.appendChild(h4)
+
+
+// Trabalhando com atributos....
+
+/*
+podemos ler e alterar os valores do atributo,
+para LER é getAttribute,
+para ALTERAR setAttribute, este leva o nome do atributo e o valor para alterar,
+este método so pega o primeiro elemento
+*/
+
+
+const firstLink = navLinks.querySelector("a")
+
+console.log(firstLink)
+
+firstLink.setAttribute("href", "https://ge.globo.com/")
+
+
+
+
+
