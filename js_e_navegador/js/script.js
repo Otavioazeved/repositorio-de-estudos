@@ -214,10 +214,37 @@ document.getElementById("btn-remove").addEventListener("click",function(){
 document.getElementById("btn-get").addEventListener("click",function(){
     var value = document.getElementById("title").getAttribute("class")
     document.getElementById("class").innerHTML = value
+
 } )
 
 
+// pegar várias posições do elementos...
 
+/*
+podemos pegar informações do elemento,
+posição no eixo x, y, altura, largura e outros,
+getClientBoundingRect
+*/
+
+const product1 = products[0]
+
+console.log(product1.getBoundingClientRect())
+
+// alterando estilos do elemento
+// css c js, os estilos ficam no elemento, as regras separadas por virgula viram camelCase saiu aquele tracinho que parece o de subtração
+
+maincontainer.style.color = "red"
+
+maincontainer.style.backgroundColor = "blue"
+
+maincontainer.style.padding
+
+// alterando estilos de vários elementos
+
+
+for(const main of maincontainer){
+    main.style.backgroundColor = "yellow";
+}
 
 
 
