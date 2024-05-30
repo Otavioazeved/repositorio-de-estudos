@@ -34,9 +34,22 @@ secondBtn.addEventListener("click", imprimirMenssagem);
 const thirdBtn = document.querySelector("#other-btn")
 
 thirdBtn.addEventListener("click",() => {
-    console.log("evento removido")
+    console.log("evento removid")
     secondBtn.removeEventListener("click", imprimirMenssagem)
 } )
+
+
+const c1 = document.querySelector("#c1")
+// const msg = () => {
+//     alert("clicou")
+// }
+
+c1.addEventListener("click",() => {
+    alert("clicou")
+})
+
+
+
 
 
 

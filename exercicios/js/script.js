@@ -1,15 +1,30 @@
-const lista = document.getElementsByTagName("ul")[0]
-const itens = lista.children
+const caixa1 = document.querySelector("#caixa1")
+const caixa2 = document.querySelector("#caixa2")
+const btn = document.querySelector("#btn_copiar")
+const todosCursos =[... document.querySelectorAll(".curso")]
+const voltar = document.querySelector("#btn_back")
 
-const novoItem = document.createElement("li")
-novoItem.textContent = "suco de laranja"
+todosCursos.map((el) =>{
+    el.addEventListener("click",(evt) => {
+        const curso=evt.target
+        curso.classList.toggle("selecionado")    
 
-lista.insertBefore(novoItem, itens[0])
+// toggle: ao ser pressionado pelo usuario ele mostra visualmente que foi pressionado, e ao ser clicado dnv ele visualmente mostra que desativado.
+    })
+})
+ btn.addEventListener("click",() => {
+    const CursosSelecionados =[...document.querySelectorAll(".selecionado")]
+    CursosSelecionados.map((el)=> {
+        caixa2.appendChild(el)
+    })
+
+})
 
 
+voltar.addEventListener("click", () => {
+    const voltarCursos=[...document.querySelectorAll(".curso:not(.selecionado)")]
+    voltarCursos.map((el) =>{
+        caixa1.appendChild(el)
 
-console.log(itens)
-
-
-
-
+    })
+})
