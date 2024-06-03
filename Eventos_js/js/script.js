@@ -49,6 +49,10 @@ c1.addEventListener("click",() => {
 })
 
 
+// todo evento possui um ARGUMENTO ESPECIAL contendo infomações do mesmo, geralmente chamado de event ou e.
+
+
+// argumento de evento
 
 
 
