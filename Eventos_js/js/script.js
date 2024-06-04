@@ -52,8 +52,17 @@ c1.addEventListener("click",() => {
 // todo evento possui um ARGUMENTO ESPECIAL contendo infomações do mesmo, geralmente chamado de event ou e.
 
 
-// argumento de evento
+// argumento de evento  
+/*
+dados sobre o evento que esta sendo disparado
+*/
 
+
+ const OurTitle = document.querySelector("#my-title")
+
+OurTitle.addEventListener("click", (event) => {
+    console.log(event)
+})
 
 
 
