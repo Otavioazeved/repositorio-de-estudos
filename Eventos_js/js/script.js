@@ -54,15 +54,42 @@ c1.addEventListener("click",() => {
 
 // argumento de evento  
 /*
-dados sobre o evento que esta sendo disparado
+dados sobre o evento que esta sendo disparado.
+usado mais quando a gente precisa extrair informações do evento.
 */
 
 
  const OurTitle = document.querySelector("#my-title")
 
 OurTitle.addEventListener("click", (event) => {
-    console.log(event)
+
+    console.log(event);
+    console.log(event.target)
+
 })
+
+
+
+// stopPropagation
+/*
+pode ocorrer de um outro elemento ativar um elemento e com isso usamos o método
+coloca um e ou event ali faz assim, e,stopPropagation() e fé
+stopPropagation.
+*/
+
+const containerBtn= document.querySelector("#btn-container")
+const  btnInsideContainer = document.querySelector("#div-btn")
+
+containerBtn.addEventListener("click", () => {
+    console.log("evento 1")
+})
+
+btnInsideContainer.addEventListener("click", (event) => {
+    event.stopPropagation()
+    console.log("evento 2")
+})
+
+
 
 
 
