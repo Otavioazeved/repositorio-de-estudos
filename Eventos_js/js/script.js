@@ -115,12 +115,24 @@ console.log("vou alterar nada, euem")
 // keydown keyup quando pressiona a tecla e solta, keydown quando ela é solta
 
 document.addEventListener("keyup", (e) =>{
-    console.log(`soltou a tecla ${e.key}`)
+    console.log(`${e.key}`)
 
 })
 
 document.addEventListener("keydown", (e) => {
-    console.log(`pressionou a tecla ${e.key}`)
+    console.log(`${e.key}`)
 })
+
+
+// outros eventos do mouse...
+/*
+mousedown: pressiounou o botão do mouse
+mouseup: soltou o botão do mouse
+dblclick: clique duplo
+*/
+
+const mouseEvents = document.querySelector("#mouse")
+
+
 
 
