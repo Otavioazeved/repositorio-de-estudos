@@ -150,12 +150,26 @@ mouseEvents.addEventListener("dblclick", () =>{
 })
 
 
+// mousemove
+/*
+usado para ativar um evento a partir da movimentação do mouse,
+consigo saber onde o usário estar,
+ele não tem elemento
+*/
 
+// document.addEventListener("mousemove", (e) => {
+//     console.log(`no eixo x: ${e.x}`)
+//     console.log(`no eixo x: ${e.x}`)
+// })
 
+// movimentos por scroll
 
+// posso colocar ele em qualquer lugar p  mim verificar fazer aquela rolagem lateral,
+// rolando o documento pra qualquer lado.
+// é adicionado ao window pq ela é a janela e não no document 
 
-
-
-
-
-
+window.addEventListener("scroll", (e) => {
+        if(window.pageYOffset > 200) {
+            console.log("passamos de 200")
+        }
+})
