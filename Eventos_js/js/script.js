@@ -90,6 +90,22 @@ btnInsideContainer.addEventListener("click", (event) => {
 })
 
 
+// ações default... ações padrão no html
+
+// removendo evento padrão
+
+// usando o preventDefault
+
+const a =document.querySelector("a")
+
+a.addEventListener("click", (e) => {
+    e.preventDefault()
+    console.log("não alterou o codigo")
+    
+})
+
+
+
 
 
 
