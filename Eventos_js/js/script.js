@@ -96,16 +96,31 @@ btnInsideContainer.addEventListener("click", (event) => {
 
 // usando o preventDefault
 
-const a =document.querySelector("a")
+// const a =document.querySelector("a")
 
-a.addEventListener("click", (e) => {
-    e.preventDefault()
-    console.log("não alterou o codigo")
+// a.addEventListener("click", (e) => {
+//     e.preventDefault()
+//     console.log("não alterou o codigo")
     
+// })
+ const a = document.querySelector("a")
+
+ a.addEventListener("click", (event) => {
+event.preventDefault()
+console.log("vou alterar nada, euem")
+ })
+
+// eventos de tecla
+// mapeiam as ações no teclado, keyup e keydown
+// keydown keyup quando pressiona a tecla e solta, keydown quando ela é solta
+
+document.addEventListener("keyup", (e) =>{
+    console.log(`soltou a tecla ${e.key}`)
+
 })
 
-
-
-
+document.addEventListener("keydown", (e) => {
+    console.log(`pressionou a tecla ${e.key}`)
+})
 
 
