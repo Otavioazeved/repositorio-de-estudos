@@ -133,6 +133,26 @@ dblclick: clique duplo
 
 const mouseEvents = document.querySelector("#mouse")
 
+mouseEvents.addEventListener("mousedown",() =>{
+    console.log("pressionou o botão")
+} )
+
+
+const Mouseupp = document.querySelector("#mouse")
+
+Mouseupp.addEventListener("mouseup", () =>{
+    console.log("soltou o botão")
+})
+
+
+mouseEvents.addEventListener("dblclick", () =>{
+    console.log("duplo click")
+})
+
+
+
+
+
 
 
 
