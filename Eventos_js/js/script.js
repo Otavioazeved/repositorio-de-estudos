@@ -173,3 +173,30 @@ window.addEventListener("scroll", (e) => {
             console.log("passamos de 200")
         }
 })
+
+// eventos por foco
+
+/*
+focus é disparado quando focamos em um elemento,
+já o blur quando perde o foco do elemento,
+estes são comuns no input, p válidar, colocar borda mais clara... 
+ao contrário dele tem o blur
+*/
+
+
+const input = document.querySelector("#my-input")
+
+input.addEventListener("focus", (e) =>{
+    console.log("entrou no input")
+
+})
+
+const blur = document.querySelector("#my-input")
+
+input.addEventListener("blur", (e) =>{
+    console.log("saiu no blur")
+
+})
+
+
+// quando aperto aparece lá, por exemplo ele fica mais inchadinho, quando eu saio ele desincha, é basicamente pra deixar mais bonito pro usuário ficar vendo e achar legal, dar mais interatividade com o usuário entendeu, otávio de daqui um tempo....
