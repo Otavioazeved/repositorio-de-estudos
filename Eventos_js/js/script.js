@@ -216,6 +216,7 @@ window.addEventListener("load", () => {
 //     e.returnValue = ""
 // })
 
+// Debounce
 
 // técnica usada para fazer um evento disparar menos vezes, poupando a memória do usuário 
 
