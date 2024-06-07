@@ -200,3 +200,48 @@ input.addEventListener("blur", (e) =>{
 
 
 // quando aperto aparece lá, por exemplo ele fica mais inchadinho, quando eu saio ele desincha, é basicamente pra deixar mais bonito pro usuário ficar vendo e achar legal, dar mais interatividade com o usuário entendeu, otávio de daqui um tempo....
+
+// Eventos de carregamento de página
+
+// podemos adicionar um evento ao carregar a página que é o load
+// e quando o usuário sai da página que é o beforenuload
+
+window.addEventListener("load", () => {
+    console.log("pagina recarregada")
+   
+});
+
+// window.addEventListener("beforeunload", (e) => {
+//     e.preventDefault()
+//     e.returnValue = ""
+// })
+
+
+// técnica usada para fazer um evento disparar menos vezes, poupando a memória do usuário 
+
+
+// const debounce = (f, delay) => {
+
+//     let timeout 
+
+//     return (...arguments) => {
+//         if(timeout) {
+//             clearTimeout(timeout);
+//         }
+
+//         timeout = setTimeout(() => {
+//             f.apply(arguments);
+//         }, delay);
+//     };
+    
+// };
+
+// Window.addEventListener(
+//     "mousemove",
+//      debounce(() => {
+//     console.log("executandoa a cada 400ms")
+// }, 400)
+// )
+
+
+
