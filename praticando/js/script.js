@@ -37,12 +37,12 @@ console.log("nome completo:", NomeCompleto)
 
 // soma
 
-let a = 90
-let b = 9
+// let a = 90
+// let b = 9
 
-let res = a - b
+// let res = a - b
 
-console.log("A resposta é:", res)
+// console.log("A resposta é:", res)
 
 
 let c = 1000
@@ -66,9 +66,25 @@ console.log("and:", bool1 && bool2)
 console.log("or:", bool1 || bool2)
 console.log("not:", !bool1)
 
+//  operadores de comparação
+// == é pra saber se é igual
+let a = 5
+let b = 3
+console.log( " a resposta é:", a < b)
+console.log("a resposta é:", a == b)
+console.log("a resposta é:", a > b)
 
 
 
+// incremento
+
+// aqui ele pode aumentar ou diminuir seus valores entendeu, exmeplo num++ ele soma mais um, num-- ele diminiu 
+
+
+let num = 10;
+num--;
+
+console.log("incremento:", num )
 
 
 
