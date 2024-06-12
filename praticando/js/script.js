@@ -156,7 +156,7 @@ VerificarVoto = (obt, facul) => {
     let b = facul
     if(obt >= 18 && obt <= 70){
         console.log("Voto obrigatório")
-    }else if (facul <= 17 && facul >= 71 ){
+    }else if ((facul >= 16 && idade < 18)|| facul >= 70 ){
         console.log("voto facultativo")
     }else {
         (console.log("voce não tem idade para votar"))
@@ -164,7 +164,7 @@ VerificarVoto = (obt, facul) => {
 }
 
 
-VerificarVoto(0)
+VerificarVoto(17)
 
 
 
