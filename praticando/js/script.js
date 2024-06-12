@@ -76,15 +76,30 @@ console.log("a resposta é:", a > b)
 
 
 
-// incremento
+// INCREMENTO             (ISSO AQUI É IMPORTANTE PRA CARALHO IRMÃO)
 
-// aqui ele pode aumentar ou diminuir seus valores entendeu, exmeplo num++ ele soma mais um, num-- ele diminiu 
+// aqui ele pode aumentar ou diminuir seus valores entendeu, exemplo num++ ele soma mais um, num-- ele diminiu 
 
 
 let num = 10;
 num--;
 
 console.log("incremento:", num )
+
+
+let number = 124;
+number++
+
+console.log("o numero somado é:", number)
+
+
+
+// operadores condicionais
+
+
+
+
+
 
 
 
