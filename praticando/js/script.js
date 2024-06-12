@@ -53,7 +53,9 @@ console.log("A divisão entre c e d é:", e)
 
 
 // boleanos.
-
+// || siginifica "ou" ai le assim x valor ou y valor é verdaderio?se um dos dois for verdaderio então é true  
+// && significa "e", ai ler assim x e y são verdadeiros ai nessa pdoeria dar falso pois um dos dois pode ser falso
+// not "!" siginifica "não" ai le assim, x não verdadeiro e se ele for verdadeiro vai da false 
 
 
 let bool1 = true
