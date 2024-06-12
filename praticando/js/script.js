@@ -151,20 +151,33 @@ MediaAluno(9,3)
 
 
 
-VerificarVoto = (obt, facul) => {
-    let a = obt
-    let b = facul
-    if(obt >= 18 && obt <= 70){
-        console.log("Voto obrigatório")
-    }else if ((facul >= 16 && idade < 18)|| facul >= 70 ){
+// VerificarVoto = (obt, facul) => {
+//     let a = obt
+//     let b = facul
+//     if(obt >= 18 && obt <= 70){
+//         console.log("Voto obrigatório")
+//     }else if ((facul >= 16 && idade < 18)|| facul >= 70 ){
+//         console.log("voto facultativo")
+//     }else {
+//         (console.log("voce não tem idade para votar"))
+//     }
+// }
+
+
+// VerificarVoto(17)
+
+
+PodeVotar = (idade) => {
+    if(idade >= 18 && idade < 70){
+        console.log("voto obrigatorio")
+    }else if((idade  >=16 && idade < 18) || idade < 70) {
         console.log("voto facultativo")
-    }else {
-        (console.log("voce não tem idade para votar"))
+    } else {
+        console.log("não pode votar")
     }
 }
 
-
-VerificarVoto(17)
+PodeVotar(322)
 
 
 
