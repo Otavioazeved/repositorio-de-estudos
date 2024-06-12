@@ -177,7 +177,7 @@ PodeVotar = (idade) => {
     }
 }
 
-PodeVotar(322)
+PodeVotar(22)
 
 
 
