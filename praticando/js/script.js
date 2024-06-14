@@ -131,7 +131,6 @@ function verificarCNH (num){
 
 verificarCNH(21)
 verificarCNH(9)
-verificarCNH()
 
 
 
@@ -170,14 +169,16 @@ MediaAluno(9,3)
 PodeVotar = (idade) => {
     if(idade >= 18 && idade < 70){
         console.log("voto obrigatorio")
-    }else if((idade  >=16 && idade < 18) || idade < 70) {
+    }else if((idade >= 16 && idade < 18) || idade < 70) {
         console.log("voto facultativo")
     } else {
         console.log("não pode votar")
     }
 }
 
-PodeVotar(22)
+PodeVotar(15)
+PodeVotar(2)
+
 
 
 
