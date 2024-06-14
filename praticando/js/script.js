@@ -179,6 +179,31 @@ PodeVotar = (idade) => {
 PodeVotar(15)
 PodeVotar(2)
 
+// IMC
+
+CalcularIMC = (peso, altura) => {
+    const IMC = peso/(altura * altura)
+    if(IMC < 18.5){
+        console.log("abaixo do peso")
+    }else if(IMC >=18.5 && IMC < 25 ){
+        console.log("peso normal")
+    }else if(IMC >= 25 && IMC < 30){
+        console.log("sobrepeso")
+    }else {
+        console.log("obesidade")
+    }
+        
+
+
+}
+
+
+CalcularIMC(59, 1,7)
+
+
+AnoBissexto = (ano) => {
+
+}
 
 
 
