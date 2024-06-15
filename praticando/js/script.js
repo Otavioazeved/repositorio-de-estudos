@@ -181,30 +181,74 @@ PodeVotar(2)
 
 // IMC
 
-CalcularIMC = (peso, altura) => {
-    const IMC = peso/(altura * altura)
-    if(IMC < 18.5){
-        console.log("abaixo do peso")
-    }else if(IMC >=18.5 && IMC < 25 ){
-        console.log("peso normal")
-    }else if(IMC >= 25 && IMC < 30){
-        console.log("sobrepeso")
-    }else {
-        console.log("obesidade")
-    }
+// CalcularIMC = (peso, altura) => {
+//     const IMC = peso/(altura * altura)
+//     if(IMC < 18.5){
+//         console.log("abaixo do peso")
+//     }else if(IMC >=18.5 && IMC < 25 ){
+//         console.log("peso normal")
+//     }else if(IMC >= 25 && IMC < 30){
+//         console.log("sobrepeso")
+//     }else {
+//         console.log("obesidade")
+//     }
         
 
 
-}
+// }
 
 
-CalcularIMC(59, 1,7)
+// CalcularIMC(59, 1,7)
 
 
-AnoBissexto = (ano) => {
+// AnoBissexto = (ano) => {
+//     if((ano % 4 == 0 && ano % 100 !=0) || ano % 400==0){
+//         console.log(ano, " é um ano bissexto")
+//     }else{
+//         console.log(ano, "não é um ano bissexto")
+//     }
+// }
+// AnoBissexto(2017)
 
-}
 
+// verificar se é um palindromo
+//  VerificarPalindromo = (palavra) =>{
+//     const PalavraInvertida = palavra.split().reverse().join();
+//     if(palavra == PalavraInvertida){
+//         console.log(palavra+ " é um palindromo")
+//     }else{
+//         console.log( palavra+ "não é um palindromo")
+//     }
+//  }
+
+
+//  VerificarPalindromo("arara")
+//  VerificarPalindromo("otavio")
+
+
+
+/*  codigo para poder verificar o maior numero entre tres numeros,
+ ta uma bosta, mas é o meu codigo é algo que eu pensei
+  com pouco tempo de programação que tenho no dia de hj 14/06/2024.
+*/
+ MaiorEntreTodos = (small, large, smallest) => {
+    let a = small
+    let b = large
+    let c = smallest
+        if(small > large && small > smallest ){
+        console.log( a+ ",maior entre os tres numeros")
+    }else if(large > small && large > smallest) {
+        console.log(b+ ",esse é o maior entre os tres")
+    }else if(smallest > small && smallest > large){
+        console.log(c+ ", o maior entre os tres")
+    }
+ }
+
+ MaiorEntreTodos(6, 10, 12)
+
+
+
+ 
 
 
 
