@@ -262,6 +262,20 @@ ParOrImpar(120)
 ParOrImpar(198)
 
 
+// idade para tirar habilitação
+
+ PossoTirarCNH = (idade) =>{
+    if(idade > 18  ){
+        console.log("voce tem idade para dirigir")
+    }else{
+        console.log("voce não tem idade para dirigir")
+    }
+    }
+
+    PossoTirarCNH(15)
+    PossoTirarCNH(22)
+ 
+
 
 
 
