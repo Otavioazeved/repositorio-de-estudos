@@ -327,6 +327,56 @@ EstaçõesAnual = (mes) => {
 }
 
 EstaçõesAnual(7)
+
+// pausa para aprender Switch  e case
+
+// let colocação = 6
+
+
+// switch(colocação){
+//     case 1:
+//         console.log("primeiro")
+//         break
+
+//         case 2:
+//             console.log("segundo")
+//             break
+
+//             case 3:
+//                 console.log("terceiro")
+
+//                  case 4: case 5: case 6:   
+//                     console.log("premio de participação")                                
+//                 default:
+//                     console.log("nao subiu ao podio")
+//                     break
+
+// }
+
+
+
+DiasDeUmMes = (dias) => {
+    switch(dias){
+        case 4: case 6: case 9: case 11:
+            console.log("esse mes tem 30 dias")
+            break
+            case 2: 
+            console.log("esse mes tem 28 dias")
+            break
+            case 1: case 3: case 5: case 7: case 8: case 10: case 12:
+                console.log("esse mes tem 31 dias")
+    }
+}
+
+DiasDeUmMes(2)
+
+
+
+
+
+
+
+
     
 
 
