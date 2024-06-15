@@ -365,10 +365,12 @@ DiasDeUmMes = (dias) => {
             break
             case 1: case 3: case 5: case 7: case 8: case 10: case 12:
                 console.log("esse mes tem 31 dias")
+                default:
+                    console.log("31 dias")
     }
 }
 
-DiasDeUmMes(2)
+DiasDeUmMes(0)
 
 /*
 colocando um case do lado do outro ele me mostra "um ou outro",
