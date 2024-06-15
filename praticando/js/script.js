@@ -370,6 +370,14 @@ DiasDeUmMes = (dias) => {
 
 DiasDeUmMes(2)
 
+/*
+colocando um case do lado do outro ele me mostra "um ou outro",
+ switch e case são necessarios 
+ para executar diferentes blocos de codigo, 
+ não pode se esquecer de colocar um break logo após colocar um case.
+
+*/  
+
 
 
 
