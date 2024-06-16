@@ -440,7 +440,14 @@ for(let a = 1; a<=10; a++){
 //     console.log("ola feioso")
 //     console.log("ola bonito")
 
-// }
+//
+
+/*
+for tem (inicio; teste; incremento){
+nesse bloco de codigo eu posso usar um if, else, else,
+while, do while....
+}
+*/
     
 
 
