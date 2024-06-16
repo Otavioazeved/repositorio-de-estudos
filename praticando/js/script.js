@@ -404,9 +404,9 @@ CorsSemafaro("branco")
 
 
 
-for(let a = 1; a<=10; a++){
-    console.log("9 x", a, "=", 9 * a)
-}
+// for(let a = 1; a<=10; a++){
+//     console.log("9 x", a, "=", 9 * a)
+// }
 
 // aprendendo while, for e do while dnv...  while significa enquanto tal coisa acontecer faça isso..
 // let c = 490
@@ -448,43 +448,3 @@ nesse bloco de codigo eu posso usar um if, else, else,
 while, do while....
 }
 */
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
