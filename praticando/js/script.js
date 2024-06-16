@@ -396,6 +396,43 @@ CorsSemafaro("branco")
 
 
 // repetição em js
+// tabuada 
+
+// for(let i = 1; i<=10; i++ ){
+//     console.log("5 x", i, "=", + 5 * i)
+// }
+
+
+
+for(let a = 1; a<=10; a++){
+    console.log("9 x", a, "=", 9 * a)
+}
+
+// aprendendo while, for e do while dnv...  while significa enquanto tal coisa acontecer faça isso..
+// let c = 490
+// while(c <= 500){
+//     console.log(`passo ${c}:`)
+//     c++
+// }
+
+
+// WHILE faz teste logic no inicio e DO WHILE faz teste logico no final
+
+
+let o =1 
+do{
+    console.log(`passo ${o}`)
+    o++
+} while(o <= 10)
+
+
+
+
+
+
+
+
+
 
 
 
