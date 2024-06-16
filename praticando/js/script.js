@@ -370,7 +370,7 @@ DiasDeUmMes = (dias) => {
     }
 }
 
-DiasDeUmMes(0)
+DiasDeUmMes(2)
 
 /*
 colocando um case do lado do outro ele me mostra "um ou outro",
@@ -379,6 +379,26 @@ colocando um case do lado do outro ele me mostra "um ou outro",
  não pode se esquecer de colocar um break logo após colocar um case.
 
 */  
+
+
+CorsSemafaro = (cor) =>{
+    if(cor==="verde") {
+    console.log("siga em frente")
+    }else if(cor === "vermelho"){
+        console.log("pare")
+    }else if(cor === "amarelo"){
+        console.log("cuidado o sinal ja vai fechar, reduza a velocidade")
+    }else{
+        console.log("por favor digite uma cor válida")
+    }
+}
+CorsSemafaro("branco")
+
+
+// repetição em js
+
+
+
 
 
 
