@@ -419,11 +419,30 @@ for(let a = 1; a<=10; a++){
 // WHILE faz teste logic no inicio e DO WHILE faz teste logico no final
 
 
-let o =1 
-do{
-    console.log(`passo ${o}`)
-    o++
-} while(o <= 10)
+// let o =1 
+// do{
+//     console.log(`passo ${o}:`)
+//     o++
+// } while(o <= 10)
+
+//  for estrutura de repetção com (var; )
+// let o = 1
+
+// for(let o = 1; o <= 10; o++){
+//     console.log("8 x", o, "=", 8 * o)
+// }
+
+
+
+// let i= 1
+
+// for(let i =1; i<=10; i++){
+//     console.log("ola feioso")
+//     console.log("ola bonito")
+
+// }
+    
+
 
 
 
