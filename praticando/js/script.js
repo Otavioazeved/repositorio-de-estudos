@@ -448,3 +448,37 @@ nesse bloco de codigo eu posso usar um if, else, else,
 while, do while....
 }
 */
+
+//        sequencia de fibonacci
+
+// let num1 = 0 
+// let num2 = 1
+
+// console.log(num1)
+// console.log(num2)
+
+// for(let i = 2; i < 10; i++){
+//     let nextNumber = num1 + num2
+//     console.log(nextNumber)
+//     num1 = num2
+//     num2 = nextNumber
+
+// }
+
+
+
+// numeTriangulares = (n) =>{
+//     let num1 = 1
+//     let num2 = 3 
+//     console.log(num1)
+// console.log(num2)
+
+// for(let o = 6; o <= 10; o++){
+//     let nextNumber = n*(n+1)/2
+//     console.log(nextNumber)
+
+// }
+// }
+// numeTriangulares("10")
+
+

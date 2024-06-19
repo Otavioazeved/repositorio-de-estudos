@@ -52,10 +52,23 @@ console.log(name)
 // tudo que tem chaves cria escopo de bloco fora das chaves é escopo global
 // permite ainda criar variaveis com o mesmo nome sem afetar o de outros locais.
 
+// arrow function 
 
+// const soma = function(a, b){
+//     return a + b
+// }
+ soma = (a, b) => a + b ;
 
+    
+console.log(soma(10, 4));
 
+const greeting = (name) => {
+    if(name){
+        return `hello ${name}`
+    }else {
+        return "hello"
+    }
+}
 
-
-
+console.log(greeting("otavio"))
 
