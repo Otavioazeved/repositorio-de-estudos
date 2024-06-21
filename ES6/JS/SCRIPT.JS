@@ -107,25 +107,63 @@ console.log(availableUsers)
 // filter remover elementos desnecessarios, map altera os que precisamos.
 
 
+// const products = [
+//     {name: "camisa", price: 10.99, category: "roupas"},
+//     {name: "chaleira eletrica", price: 150, category: "eletro"},
+//     {name: "fogão", rice: 499, category: "eletro"},
+//     {name: "calça jeans", price: 87.99, category: "roupas"},
+// ]
+
+
+// products.map((products) =>{
+//     if(products.category === "roupas"){
+// products.onSale = true
+//     }
+// })
+
+
+// console.log(products)
+
+
+// map(percorre a coleção e a gente gera valores alterados em cima da coleção dela  ) e reduce (percorrer a coleção e gerar alguma informação exemplo de somar tudo. )
+
+// exmeplo de map é eu tenhouma lista com dolar e quero trazer p real, map retorna uma nova lista 
+
+
 const products = [
-    {name: "camisa", price: 10.99, category: "roupas"},
-    {name: "chaleira eletrica", price: 150, category: "eletro"},
-    {name: "fogão", rice: 499, category: "eletro"},
-    {name: "calça jeans", price: 87.99, category: "roupas"},
+    {
+        nome: "notebook", 
+        preco: 2100
+
+    },
+
+    // esta tudo em dolar e vou fazer com q a função map me retorne tudo em real
+    {
+        nome: "smatphone",
+        preco: 400
+    },
+    {
+        name: "chuteira",
+        preco: 350
+    }
 ]
 
+const precosReais = products.map(p => p.preco * 5.43 )
 
-products.map((products) =>{
-    if(products.category === "roupas"){
-products.onSale = true
-    }
-})
 
+console.log(precosReais)
 
 console.log(products)
 
+// map não modifica a coleção anterior ela gera uma nova coleção a partir dela
+// então quando vejo um map eu ja sei que esse codigo map esta fazendo a conversão de alguns valore 
 
-// map(percorre a coleção e a gente gera valores alterados em cima da cole dela  ) e redunce (percorrer a coleção e gerar alguma informação)
 
-// exmeplo de map é eu tenhouma lista com dolar e quero trazer p real, map retorna uma nova lista 
+// redunce
+
+const total = products.reduce((a, b) => a + b.preco, 0)
+
+console.log(total)
+
+
 
