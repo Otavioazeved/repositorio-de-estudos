@@ -169,20 +169,16 @@ console.log(availableUsers)
 
 
 const produtos = [
-    {id: 1, nome: "detergente", valor: 2.20, categoria: "limpeza"},
-    {id: 2, nome: "amaciante", valor: 4, categoria: "limpeza"},
-    {id: 3, nome: "pão", valor: 2, categoria: "alimento"},
-    {id: 4, nome: "queijo", valor: 20, categoria: "alimento"},
-    {id: 5, nome: "leite", valor: 22, categoria: "alimento"},
+    {id: 1, nome: "detergente", valor: 2.20, categoria: "limpeza",available: true },
+    {id: 2, nome: "amaciante", valor: 4, categoria: "limpeza",available: false},
+    {id: 3, nome: "pão", valor: 2, categoria: "alimento",available: true},
+    {id: 4, nome: "queijo", valor: 20, categoria: "alimento",available: false},
+    {id: 5, nome: "leite", valor: 22, categoria: "alimento",available: true},
 ];  
 
-
 // tem que retornar algo que seja um boleano true or false
-const alimentos = produtos.filter(p => p.) 
 
+const alimentos = produtos.filter(p => p.available) 
 
-
-
-
-
+console.log(alimentos)
 
