@@ -130,40 +130,59 @@ console.log(availableUsers)
 // exmeplo de map é eu tenhouma lista com dolar e quero trazer p real, map retorna uma nova lista 
 
 
-const products = [
-    {
-        nome: "notebook", 
-        preco: 2100
+// const products = [
+//     {
+//         nome: "notebook", 
+//         preco: 2100
 
-    },
+//     },
 
     // esta tudo em dolar e vou fazer com q a função map me retorne tudo em real
-    {
-        nome: "smatphone",
-        preco: 400
-    },
-    {
-        name: "chuteira",
-        preco: 350
-    }
-]
+//     {
+//         nome: "smatphone",
+//         preco: 400
+//     },
+//     {
+//         name: "chuteira",
+//         preco: 350
+//     }
+// ]
 
-const precosReais = products.map(p => p.preco * 5.43 )
+// const precosReais = products.map(p => p.preco * 5.43 )
 
 
-console.log(precosReais)
+// console.log(precosReais)
 
-console.log(products)
+// console.log(products)
 
 // map não modifica a coleção anterior ela gera uma nova coleção a partir dela
 // então quando vejo um map eu ja sei que esse codigo map esta fazendo a conversão de alguns valore 
 
 
-// redunce
+// reduce
 
-const total = products.reduce((a, b) => a + b.preco, 0)
+// const total = products.reduce((a, b) => a + b.preco, 0)
 
-console.log(total)
+// console.log(total)
+
+// no callback eu que escolhe o nome
+
+
+const produtos = [
+    {id: 1, nome: "detergente", valor: 2.20, categoria: "limpeza"},
+    {id: 2, nome: "amaciante", valor: 4, categoria: "limpeza"},
+    {id: 3, nome: "pão", valor: 2, categoria: "alimento"},
+    {id: 4, nome: "queijo", valor: 20, categoria: "alimento"},
+    {id: 5, nome: "leite", valor: 22, categoria: "alimento"},
+];  
+
+
+// tem que retornar algo que seja um boleano true or false
+const alimentos = produtos.filter(p => p.) 
+
+
+
+
 
 
 
