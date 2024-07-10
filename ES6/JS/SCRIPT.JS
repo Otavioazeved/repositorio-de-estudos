@@ -182,3 +182,22 @@ const alimentos = produtos.filter(p => p.available)
 
 console.log(alimentos) 
 
+// // template literals
+
+// // escreve o texto entre crases`assim`
+// // variaveis assim ${variavel}
+
+
+const UserName = "otavio"
+
+const age = "22"
+
+console.log(`o nome do usuário é ${UserName} e ele tem ${age} anos`);
+
+
+// destructuring
+/*
+desestrutura dados complexos em várias variaveis,
+arrays podem ser usados,
+muitas variveis podem ser criadas em uma única linha
+*/
