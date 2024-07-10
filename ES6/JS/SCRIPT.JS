@@ -201,3 +201,20 @@ desestrutura dados complexos em várias variaveis,
 arrays podem ser usados,
 muitas variveis podem ser criadas em uma única linha
 */
+
+const fruits = ["maça", "banana", "uva"]
+
+const [f1, f2, f3] = fruits
+
+
+console.log(f1, f2)
+
+const productDetails = {
+    name:"mouse",
+    price: "39,99",
+    color: "blue"
+}
+
+const {name: productName, price, color} =  productDetails;
+
+console.log(`o nome do produto é ${productName}, ele custa ${price}, e é da cor ${color}`)
