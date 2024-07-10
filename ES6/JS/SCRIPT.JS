@@ -181,3 +181,4 @@ const produtos = [
 const alimentos = produtos.filter(p => p.available) 
 
 console.log(alimentos) 
+
