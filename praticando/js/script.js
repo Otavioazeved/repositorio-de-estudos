@@ -481,14 +481,4 @@ while, do while....
 // }
 
 
-// // template literals
-
-// // escreve o texto entre crases`assim`
-// // variaveis assim ${variavel}
-const userName = "otavio"
-const idade = "22"
-
-
-console.log(`nome do usuário é ${userName} e ele tem ${idade} anos`)
-
 
