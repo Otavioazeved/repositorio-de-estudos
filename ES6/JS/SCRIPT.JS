@@ -235,4 +235,31 @@ console.log(nome)
 console.log(pessoa, pessoaComTelefone)
 
 
+// destructuring é mais para poder extrair apenas o que a gente quer sem precisar criar elas em varias linhas.
+
+
+const fruits = ["maça", "mamão", "limão"]
+
+const [f1, f2, f3] = fruits 
+
+console.log(f1)
+console.log(f2)
+console.log(f3)
+
+
+const productDetails = {
+    name: "otavio",
+    price: 39.99,
+    category: "periferico",
+    color: "azul"
+};
+
+// desestruturar deixa as operações mais simples
+
+const {name, price, category, color} = productDetails;
+
+console.log(`eu tenho um produto com ${name}, ele custa${price}, e é da cor${color}`)
+
+
+
 
