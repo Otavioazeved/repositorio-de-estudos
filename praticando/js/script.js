@@ -566,3 +566,7 @@ NumberPrimo = (num) =>{
 }
 
 console.log(NumberPrimo(7))
+
+// arrays
+
+    
