@@ -275,17 +275,24 @@ console.log(a3)
 
 
 
+const a4 = [...a1,...a2, 7, 8, 9, 10]
+
+console.log(a4)
+
+
+
+
 
 // serve muito para unir-los arrays e objetos
 
-const CarName = {name: "gol" };
-const CarBrand = {brand: "vw" };
-const otherInfos = {km: 1000, price:49000};
+const jogos = {partidas: "brasileirão"}
+const devs = {devis: "otavio"}
+const slrio = {sal: 1600}
 
+const jds = {...jogos,...devs,...slrio}
 
-const car = [...CarName,...CarBrand,...otherInfos]
+console.log(jds)
 
-console.log(car)
 
 
 
