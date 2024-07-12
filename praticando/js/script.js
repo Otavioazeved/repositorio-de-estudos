@@ -480,5 +480,89 @@ while, do while....
 // }
 // }
 
+// FUNÇÕES EM JAVASCRIPT
+
+olaMundo = () => {
+    console.log("ola mundo")
+}
+
+olaMundo()
 
 
+doisNumeros = (a, b,soma ) =>{
+    
+ return a + b;
+  
+    
+}
+
+console.log (doisNumeros(2, 4))
+
+RetQuadrado = (a) => {
+    return a * a
+}
+
+console.log(RetQuadrado(2))
+
+
+parOUimpar = (a) => {
+    if(a % 2 === 0){
+        return "par"
+    }else{
+        return "impar"
+    }
+}
+
+console.log(parOUimpar(2))
+
+
+MaiorNum = (a, b, c) => {
+    return Math.max (a, b, c)
+}
+
+console.log(MaiorNum(2, 4, 5))
+
+
+// função math.max me faz descobrir o maior número, ela aceita qualquer número e manda o maior deles
+
+
+// fatorial
+ Fatorial = (num) =>{
+    let fatorial = 1 
+    for(let i = 2; i<=num; i++){
+        fatorial *= i
+    }
+    return fatorial
+ }
+
+ console.log(Fatorial(5))
+
+
+
+
+
+
+// NumberPrimo = (num) => {
+//     if(num/1 || num/num){
+//         return "primo"
+//     }else{
+//         return "não é primo"
+//     }
+
+// }
+
+// console.log(NumberPrimo(9))
+
+
+
+NumberPrimo = (num) =>{
+    for(let i = 2; i < num; i++){
+        if(num % i===0){
+            return false;
+        }
+    }
+    return num > 1
+
+}
+
+console.log(NumberPrimo(7))
