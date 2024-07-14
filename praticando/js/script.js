@@ -569,4 +569,19 @@ console.log(NumberPrimo(7))
 
 // arrays
 
+
+MenorArr =(array) =>{
+    return  Math.min(...array)
+
+
+}
+
+console.log(MenorArr([1, 2, 4, 6]))
+
+
+// Math.min retorna o menor número acrscido a um array.
+// os pontinhos... são usados para percorrer todos os números que estão noa array
+
+
+
     
