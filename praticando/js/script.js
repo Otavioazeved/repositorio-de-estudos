@@ -567,10 +567,11 @@ NumberPrimo = (num) =>{
 
 console.log(NumberPrimo(7))
 
+
+
 // arrays
 
-
-MenorArr =(array) =>{
+MenorArr = (array) =>{
     return  Math.min(...array)
 
 
@@ -580,7 +581,47 @@ console.log(MenorArr([1, 2, 4, 6]))
 
 
 // Math.min retorna o menor número acrscido a um array.
-// os pontinhos... são usados para percorrer todos os números que estão noa array
+// os pontinhos... são usados para passar todos os elementos do array como argumentos para a função Math.min
+
+
+MaiorArr = (arrays) => {
+    return Math.max(...arrays)
+}
+
+console.log(MaiorArr([12, 24, 65, 2]));
+
+
+// soma impares 
+
+const rockets  = [
+    {  country: "russia ", launches: 32},
+    {  country: "brasil ", launches: 43},
+    {  country: "australia ", launches: 35},
+    {  country: "canada ", launches: 67}
+]
+
+const totalLaunches = rockets.reduce((prevVal, elem) => prevVal + elem.launches, 0)
+
+console.log(totalLaunches)
+
+
+/*
+se eu quisesse saber o total de lançamentos que todos esses paises fizeram,
+existe o reduce que soma todos, os nomes de variaves eu escolho,
+reduzir a uma coisa so por isso o nome reduce,
+recebe dois parametros, o primeiro é o valor anterior e o segundo o elemento atual ou valor atual,
+posso colocar o que eu quiser.
+*/
+
+
+somaImpar = (array) => {
+    return array.reduce((soma, num) => num % 2 !==0 ? soma + num: soma, 0)
+}
+
+console.log(somaImpar([1, 3, 5, 7, 9]))
+
+
+
 
 
 
