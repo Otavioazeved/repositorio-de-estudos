@@ -294,6 +294,51 @@ const jds = {...jogos,...devs,...slrio}
 console.log(jds)
 
 
+// classes
 
+// recurso importante para programar orientação a objeto
+/*
+da pra ter acesso a recursos importantes como,
+constructor, propriedades e métodos
+*/
+// pra acessar a prop de um objeto é so coloca o this.alguma coisa 
+
+
+class product {
+    constructor(name, price){
+        this.name = name
+        this.price = price
+    }
+    productWithDiscount(discount){
+        return this.price * ((100 - discount) /100)
+    }
+}
+
+const shirt = new product("camisa gola v", 20)
+
+console.log(shirt)
+
+// exercicios
+
+let obj = {} 
+
+obj.numero =  12
+obj.string = "texto"
+obj.booleano = true
+
+console.log(obj)
+
+// 
+
+const livro = {
+    titulo: "o hobbbit",
+    autor: "otavio azevedo",
+    numDePáginas: 22,
+}
+
+descricao = () => { 
+    console.log(`o livro ${this.titulo}, escrito por ${this.autor}, tem ${this.numDePáginas}`)
+}, 
+descricao();
 
 
