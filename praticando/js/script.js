@@ -622,6 +622,14 @@ console.log(somaImpar([1, 3, 5, 7, 9]))
 
 
 
+SomaPar = (arrayss) => {
+    return arrayss.reduce((soma, num) => num % 2 === 0 ? soma + num: soma, 0)
+}
+
+console.log(SomaPar([2, 4, 6, 8]))
+
+
+
 
 
 
