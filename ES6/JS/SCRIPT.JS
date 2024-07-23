@@ -341,5 +341,10 @@ descricao = () => {
 }, 
 descricao();
 
+// Axios
+/*
+o que é? biblioteca js para requisição de http,
+axios é uma promessa, ele retorna promessas,
+torna muito mais simples os recursos com APis e requisições assincronas
 
-!
+*/
