@@ -6,15 +6,24 @@
     <title>AXIOS</title>
     <link rel="icon" href="data:",  >
     <link rel="stylesheet" href="style/style.css">
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
 </head>
 <body>
     <h1>axios</h1>
+
+<input type="text" id="nomeUsuario" placeholder="usuario do github:">
+<button type="submit" onclick="trazerRepositorios()">Pesquisar</button>
+<button onclick="location.reload()">Limpar</button>
+<ul id="repos"></ul>
+
+
+  
 
 
 
 
 <script src="script.js" defer></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     
 </body>
 </html>
