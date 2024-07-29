@@ -8,60 +8,24 @@ GET, POST, PUT, DELETE a partir do front end.
 // primeiro Request  (Request é requisição)
 // recomendado usar try catch para identificar erros, e usar tbm async functios
 
-// const getData = async() => {
-//     try{
+const getData = async() => {
+    try{
 
-//         const response = await axios.get("https://jsonplaceholder.typicode.com/users")
+        const response = await axios.get("https://jsonplaceholder.typicode.com/users")
 
-//         console.log(response)
-//         return response.data 
+        console.log(response)
+        return response.data 
 
-//     } catch(error){
-//         console.log(error)
-//     }
-// }
+    } catch(error){
+        console.log(error)
+    }
+}
 
-// getData()
+getData()
 
 
 // imprimindo dados da APi 
-/*
-após o request é comum exibir os dados na tela,
-podemos fazer isso juntando a resposta da chamada com os conhecimentos em DOM,
-criar elementos baseados no que veio na requisição.
-*/
 
-// const container = document.querySelector("#user-container")
-
-// const printData = async() =>{
-//     const data = await getData()
-
-//     console.log(data)
-
-//     data.forEach((user) => {
-//         const div = document.createElement("div")
-
-//         const nameElement = document.createElement("h2")
-
-//         nameElement.textContent = user.name
-        
-//         div.appendChild(nameElement)
-
-//         container.appendChild(div)
-        
-
-//         const emailElement = document.createElement("p")
-
-//         emailElement.textContent = user.email
-
-//         div.appendChild(emailElement)
-    
-//     })
-// }
-
-// printData();
-
-// como consumir um api c axios e js puro.
 
 
 const nameusuarioo =  document.querySelector("#nomeUsuario")
@@ -83,15 +47,47 @@ function trazerRepositorios(){
     })
 }
 
-// crud, create, read, update e delete
-// que significam;
-// criação, consulta, atualização e criação de dados
+// imprimindo dados na tela
 
-// aprendendo dnv a imprimir dados de uma api
+const container = document.querySelector("#user-container")
+
+const printData = async() =>{
+
+    const data = await getData()
+
+    console.log(data)
+
+
+data.forEach((user) => {
+
+    const div = document.createElement("div")
+    div
+    
+});
+}
+
+
+printData()
 
 
 
-const container = querySelector("#user-container")
+
+
+// async e await duvidas e desvendando de vez
+// forma de chamar as promises
+
+//coloca async dps await, PRA PodeER USAR O AWAIT TEM QUE COLOCAR O ASYNC ANTES
+// exercicios
+
+delay = (ms) => {
+    return new Promise(resolve =>setTimeout (resolve, ms)) 
+    
+
+}
+
+
+delay(2000).then (() => console.log("resolvido apos 2 segundo"))
+
 
 
 
