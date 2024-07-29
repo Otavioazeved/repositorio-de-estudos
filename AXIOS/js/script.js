@@ -76,7 +76,7 @@ printData()
 // async e await duvidas e desvendando de vez
 // forma de chamar as promises
 
-//coloca async dps await, PRA PodeER USAR O AWAIT TEM QUE COLOCAR O ASYNC ANTES
+//coloca async dps await, PRA Poder USAR O AWAIT TEM QUE COLOCAR O ASYNC ANTES
 // exercicios
 
 delay = (ms) => {
@@ -87,12 +87,3 @@ delay = (ms) => {
 
 
 delay(2000).then (() => console.log("resolvido apos 2 segundo"))
-
-
-
-
-
-
-
-
-
