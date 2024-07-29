@@ -62,6 +62,8 @@ criar elementos baseados no que veio na requisição.
 // printData();
 
 // como consumir um api c axios e js puro.
+
+
 const nameusuarioo =  document.querySelector("#nomeUsuario")
 function trazerRepositorios(){
     axios
@@ -80,6 +82,18 @@ function trazerRepositorios(){
         }
     })
 }
+
+// crud, create, read, update e delete
+// que significam;
+// criação, consulta, atualização e criação de dados
+
+// aprendendo dnv a imprimir dados de uma api
+
+
+
+const container = querySelector("#user-container")
+
+
 
 
 
